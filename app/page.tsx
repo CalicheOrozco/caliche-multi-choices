@@ -32,7 +32,7 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-zinc-50 text-foreground dark:bg-black">
-      <main className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-6 py-12">
+      <main className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-4 py-8 sm:px-6 sm:py-12">
         <header className="flex flex-col gap-2">
           <h1 className="text-2xl font-semibold tracking-tight">
             CIM - Multiple-choice questions

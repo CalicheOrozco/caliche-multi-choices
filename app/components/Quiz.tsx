@@ -152,7 +152,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
     const inputValue = max <= 0 ? 0 : desiredCount;
 
     return (
-      <section className="w-full rounded-2xl border border-black/8 bg-background p-6 text-foreground dark:border-white/[.145]">
+      <section className="w-full rounded-2xl border border-black/8 bg-background p-5 text-foreground dark:border-white/[.145] sm:p-6">
         <div className="flex flex-col gap-1">
           <h2 className="text-lg font-semibold leading-7">Quiz setup</h2>
           <p className="text-sm text-zinc-600 dark:text-zinc-400">
@@ -160,7 +160,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
           </p>
         </div>
 
-        <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-end pb-4">
+        <div className="my-4 flex flex-col gap-3 sm:flex-row sm:items-end">
           <label className="flex w-full flex-col gap-1 sm:max-w-xs">
             <span className="text-sm font-medium">Number of questions</span>
             <input
@@ -188,7 +188,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
             if (clamped !== desiredCount && clamped > 0) setDesiredCount(clamped);
             startQuiz();
           }}
-          className="inline-flex h-11 items-center justify-center rounded-full bg-foreground px-6 text-sm font-medium text-background disabled:cursor-not-allowed disabled:opacity-50"
+          className="inline-flex h-11 w-full items-center justify-center rounded-full bg-foreground px-6 text-sm font-medium text-background disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
         >
           Start
         </button>
@@ -198,26 +198,26 @@ export default function Quiz({ questions, seed }: QuizProps) {
 
   if (phase === "results") {
     return (
-      <section className="w-full rounded-2xl border border-black/8 bg-background p-5 text-foreground dark:border-white/[.145]">
+      <section className="w-full rounded-2xl border border-black/8 bg-background p-5 text-foreground dark:border-white/[.145] sm:p-6">
         <h2 className="text-base font-semibold leading-7">Results</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           <div className="rounded-xl border border-black/8 p-4 dark:border-white/[.145]">
             <p className="text-xs text-zinc-600 dark:text-zinc-400">Total</p>
-            <p className="mt-1 text-2xl font-semibold">{results.total}</p>
+            <p className="mt-1 text-xl font-semibold sm:text-2xl">{results.total}</p>
           </div>
           <div className="rounded-xl border border-black/8 p-4 dark:border-white/[.145]">
             <p className="text-xs text-zinc-600 dark:text-zinc-400">Score</p>
-            <p className="mt-1 text-2xl font-semibold">{results.scorePercent}%</p>
+            <p className="mt-1 text-xl font-semibold sm:text-2xl">{results.scorePercent}%</p>
           </div>
           <div className="rounded-xl border border-green-600 bg-green-50 p-4 text-green-950 dark:border-green-400 dark:bg-green-950/40 dark:text-green-50">
             <p className="text-xs text-green-800/80 dark:text-green-100/80">
               Correct
             </p>
-            <p className="mt-1 text-2xl font-semibold">{results.correct}</p>
+            <p className="mt-1 text-xl font-semibold sm:text-2xl">{results.correct}</p>
           </div>
           <div className="rounded-xl border border-red-600 bg-red-50 p-4 text-red-950 dark:border-red-400 dark:bg-red-950/40 dark:text-red-50">
             <p className="text-xs text-red-800/80 dark:text-red-100/80">Incorrect</p>
-            <p className="mt-1 text-2xl font-semibold">{results.incorrect}</p>
+            <p className="mt-1 text-xl font-semibold sm:text-2xl">{results.incorrect}</p>
           </div>
         </div>
 
@@ -247,7 +247,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
                   key={qId}
                   className="rounded-2xl border border-black/8 p-4 dark:border-white/[.145]"
                 >
-                  <p className="text-sm font-semibold leading-6">
+                  <p className="wrap-break-word text-sm font-semibold leading-6">
                     {index + 1}. {q.question}
                   </p>
 
@@ -256,7 +256,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
                       <p className="text-xs text-zinc-600 dark:text-zinc-400">
                         Your answer
                       </p>
-                      <p className="mt-1 text-sm leading-6">
+                      <p className="mt-1 wrap-break-word text-sm leading-6">
                         {selectedKey ? (
                           <>
                             <span className="font-semibold">{selectedKey}.</span>{" "}
@@ -274,7 +274,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
                       <p className="text-xs text-green-800/80 dark:text-green-100/80">
                         Correct answer
                       </p>
-                      <p className="mt-1 text-sm leading-6">
+                      <p className="mt-1 wrap-break-word text-sm leading-6">
                         <span className="font-semibold">{correctKey}.</span>{" "}
                         {correctLabel ?? ""}
                       </p>
@@ -312,7 +312,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
                 setDesiredCount((prev) => Math.max(1, Math.min(prev, nextMax)));
               }
             }}
-            className="inline-flex h-10 items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6"
+            className="inline-flex h-10 w-full items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6 sm:w-auto"
           >
             Back to start
           </button>
@@ -347,8 +347,8 @@ export default function Quiz({ questions, seed }: QuizProps) {
         Question {safeIndex + 1} of {activeQuestions.length}
       </p>
 
-      <section className="w-full rounded-2xl border border-black/8 bg-background p-5 text-foreground dark:border-white/[.145]">
-        <h2 className="text-base font-semibold leading-7">
+      <section className="w-full rounded-2xl border border-black/8 bg-background p-5 text-foreground dark:border-white/[.145] sm:p-6">
+        <h2 className="wrap-break-word text-base font-semibold leading-7">
           {currentQuestion.id}. {currentQuestion.question}
         </h2>
 
@@ -374,7 +374,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
                 key={key}
                 htmlFor={inputId}
                 className={
-                  "flex w-full items-start gap-3 rounded-xl px-4 py-3 transition-colors " +
+                  "flex w-full items-start gap-3 rounded-xl px-3 py-3 transition-colors sm:px-4 " +
                   (currentAnswer?.checked ? "cursor-default " : "cursor-pointer ") +
                   (isSelectedCorrect
                     ? "border-2 border-green-600 bg-green-50 dark:border-green-400 dark:bg-green-950/40"
@@ -395,7 +395,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
                   onChange={() => selectOption(currentQuestionId, key)}
                   className="mt-1"
                 />
-                <span className="text-sm leading-6">
+                <span className="wrap-break-word text-sm leading-6">
                   <span className="font-semibold">{key}.</span> {label}
                 </span>
               </label>
@@ -409,7 +409,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
               type="button"
               onClick={() => checkAnswer(currentQuestionId)}
               disabled={!currentAnswer?.selected}
-              className="inline-flex h-10 items-center justify-center rounded-full bg-foreground px-5 text-sm font-medium text-background disabled:cursor-not-allowed disabled:opacity-50"
+              className="inline-flex h-10 w-full items-center justify-center rounded-full bg-foreground px-5 text-sm font-medium text-background disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
             >
               Check
             </button>
@@ -419,7 +419,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
             <button
               type="button"
               onClick={goNext}
-              className="inline-flex h-10 items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6"
+              className="inline-flex h-10 w-full items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6 sm:w-auto"
             >
               Next
             </button>
@@ -429,7 +429,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
             <button
               type="button"
               onClick={() => setPhase("results")}
-              className="inline-flex h-10 items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6"
+              className="inline-flex h-10 w-full items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6 sm:w-auto"
             >
               Results
             </button>
