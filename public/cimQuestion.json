@@ -195,24 +195,24 @@
     "id": 17,
     "question": "A company wants to eliminate waste in operations. Which method supports this?",
     "options": {
-      "A": "Lean",
+      "A": "Skimming",
       "B": "Downsizing",
-      "C": "Skimming",
+      "C": "Lean",
       "D": "Outsourcing"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Lean focuses on reducing waste and improving efficiency."
   },
   {
     "id": 18,
     "question": "A philosophy emphasizing continuous improvement through small changes is called:",
     "options": {
-      "A": "Kaizen",
+      "A": "Centralization",
       "B": "Benchmarking",
       "C": "Integration",
-      "D": "Centralization"
+      "D": "Kaizen"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Kaizen emphasizes continuous incremental improvements."
   },
   {
@@ -339,24 +339,24 @@
     "id": 29,
     "question": "Setting a low initial price to gain market share quickly is:",
     "options": {
-      "A": "Penetration pricing",
+      "A": "Discounting",
       "B": "Premium pricing",
       "C": "Skimming",
-      "D": "Discounting"
+      "D": "Penetration pricing"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Penetration pricing helps gain market share rapidly."
   },
   {
     "id": 30,
     "question": "Launching a product at a high initial price is:",
     "options": {
-      "A": "Skimming",
+      "A": "Discount pricing",
       "B": "Penetration pricing",
-      "C": "Discount pricing",
+      "C": "Skimming",
       "D": "Value pricing"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Skimming captures early adopters willing to pay higher prices."
   },
   {
@@ -376,11 +376,11 @@
     "question": "What defines a conflict of interest?",
     "options": {
       "A": "Long working hours",
-      "B": "Personal interests influencing professional decisions",
+      "B": "Budget overruns",
       "C": "Customer complaints",
-      "D": "Budget overruns"
+      "D": "Personal interests influencing professional decisions"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "explanation": "A conflict occurs when personal gain may affect professional judgment."
   },
   {
@@ -436,11 +436,11 @@
     "question": "Delegation means:",
     "options": {
       "A": "Avoiding responsibility",
-      "B": "Assigning tasks with authority",
+      "B": "Ignoring team input",
       "C": "Doing all work personally",
-      "D": "Ignoring team input"
+      "D": "Assigning tasks with authority"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "explanation": "Delegation assigns responsibility while maintaining accountability."
   },
   {
@@ -459,12 +459,12 @@
     "id": 39,
     "question": "What helps managers track productivity?",
     "options": {
-      "A": "KPIs",
+      "A": "PESTLE",
       "B": "SWOT",
-      "C": "PESTLE",
+      "C": "KPIs",
       "D": "Segmentation"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "KPIs provide measurable performance indicators."
   },
   {
@@ -496,11 +496,12 @@
     "question": "A project exceeds its budget. What should the manager do?",
     "options": {
       "A": "Ignore",
-      "B": "Analyze causes",
+      "B": "Reduce quality",
       "C": "Cancel immediately",
-      "D": "Reduce quality"
+      "D": "Analyze causes"
+      
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "explanation": "Identifying root causes helps correct the issue."
   },
   {
@@ -531,12 +532,12 @@
     "id": 45,
     "question": "What promotes innovation in teams?",
     "options": {
-      "A": "Encouraging experimentation",
+      "A": "Limited communication",
       "B": "Strict control",
-      "C": "Limited communication",
+      "C": "Encouraging experimentation",
       "D": "Punishing mistakes"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Innovation thrives in environments that encourage experimentation."
   },
   {
@@ -555,12 +556,12 @@
     "id": 47,
     "question": "Acquiring suppliers is:",
     "options": {
-      "A": "Vertical integration",
+      "A": "Segmentation",
       "B": "Horizontal integration",
-      "C": "Segmentation",
+      "C": "Vertical integration",
       "D": "Diversification"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Vertical integration increases control over supply chains."
   },
   {
@@ -579,12 +580,12 @@
     "id": 49,
     "question": "Reducing workforce to stabilize finances is:",
     "options": {
-      "A": "Downsizing",
+      "A": "Market development",
       "B": "Differentiation",
-      "C": "Market development",
+      "C": "Downsizing",
       "D": "Skimming"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Downsizing reduces operational costs during financial pressure."
   },
   {
@@ -616,11 +617,11 @@
     "question": "A team consistently meets goals but lacks innovation. What should the manager encourage?",
     "options": {
       "A": "Strict supervision",
-      "B": "Creative thinking and experimentation",
-      "C": "More rules",
+      "B": "More rules",
+      "C": "Creative thinking and experimentation",
       "D": "Less collaboration"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "Encouraging experimentation fosters innovation and creative problem solving."
   },
   {
@@ -640,11 +641,11 @@
     "question": "A company studies demographic trends affecting demand. What analysis is this?",
     "options": {
       "A": "SWOT",
-      "B": "PESTLE",
-      "C": "Break-even",
+      "B": "Break-even",
+      "C": "PESTLE",
       "D": "Benchmarking"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "PESTLE includes social and demographic factors affecting the external environment."
   },
   {
@@ -711,12 +712,12 @@
     "id": 60,
     "question": "A company wants to expand by selling existing products to current markets more aggressively. Which strategy is this?",
     "options": {
-      "A": "Market penetration",
+      "A": "Product development",
       "B": "Diversification",
-      "C": "Product development",
+      "C": "Market penetration",
       "D": "Integration"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Market penetration focuses on increasing market share with existing products."
   },
   {
@@ -747,12 +748,12 @@
     "id": 63,
     "question": "A company analyzes customer feedback to improve products. This focuses on:",
     "options": {
-      "A": "Customer satisfaction",
+      "A": "Debt ratio",
       "B": "Inventory turnover",
-      "C": "Debt ratio",
+      "C": "Customer satisfaction",
       "D": "Asset depreciation"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Customer feedback helps organizations improve satisfaction and product quality."
   },
   {
@@ -771,12 +772,12 @@
     "id": 65,
     "question": "Employees are rewarded for reaching performance targets. What system is this?",
     "options": {
-      "A": "Incentive system",
+      "A": "Centralization",
       "B": "Downsizing",
       "C": "Segmentation",
-      "D": "Centralization"
+      "D": "Incentive system"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Incentives motivate employees to achieve performance goals."
   },
   {
@@ -795,12 +796,12 @@
     "id": 67,
     "question": "A manager compares current performance with last year's results. This is:",
     "options": {
-      "A": "Trend analysis",
+      "A": "Downsizing",
       "B": "Segmentation",
       "C": "Diversification",
-      "D": "Downsizing"
+      "D": "Trend analysis"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Trend analysis examines changes over time."
   },
   {
@@ -819,12 +820,13 @@
     "id": 69,
     "question": "A company studies environmental regulations affecting its industry. Which factor is this?",
     "options": {
-      "A": "Legal",
+      "A": "Competitive",
       "B": "Technological",
       "C": "Social",
-      "D": "Competitive"
+      "D": "Legal"
+      
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Legal factors in PESTLE include laws and regulations."
   },
   {
@@ -843,12 +845,12 @@
     "id": 71,
     "question": "A company measures profit as revenue minus expenses. What is this called?",
     "options": {
-      "A": "Net income",
+      "A": "Equity",
       "B": "Assets",
       "C": "Liabilities",
-      "D": "Equity"
+      "D": "Net income"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Net income represents total profit after expenses."
   },
   {
@@ -867,12 +869,12 @@
     "id": 73,
     "question": "A company improves supply chain efficiency. What area of management is involved?",
     "options": {
-      "A": "Operations",
+      "A": "Human resources",
       "B": "Marketing",
       "C": "Finance",
-      "D": "Human resources"
+      "D": "Operations"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Operations management oversees production and supply chains."
   },
   {
@@ -891,36 +893,37 @@
     "id": 75,
     "question": "A company increases brand awareness through advertising. What function is this?",
     "options": {
-      "A": "Marketing",
+      "A": "Accounting",
       "B": "Operations",
       "C": "Finance",
-      "D": "Accounting"
+      "D": "Marketing"
+      
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Marketing activities promote products and brand recognition."
   },
   {
     "id": 76,
     "question": "A manager encourages employees to share ideas. What leadership trait is shown?",
     "options": {
-      "A": "Openness",
+      "A": "Control",
       "B": "Authority",
-      "C": "Control",
+      "C": "Openness",
       "D": "Isolation"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Open communication encourages collaboration and creativity."
   },
   {
     "id": 77,
     "question": "A company reduces production costs by automating processes. What benefit is achieved?",
     "options": {
-      "A": "Efficiency",
+      "A": "Outsourcing",
       "B": "Segmentation",
       "C": "Diversification",
-      "D": "Outsourcing"
+      "D": "Efficiency"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Automation often increases operational efficiency."
   },
   {
@@ -939,36 +942,37 @@
     "id": 79,
     "question": "A company increases product quality to gain competitive advantage. What strategy is this?",
     "options": {
-      "A": "Differentiation",
+      "A": "Outsourcing",
       "B": "Cost leadership",
       "C": "Downsizing",
-      "D": "Outsourcing"
+      "D": "Differentiation"
+      
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Differentiation creates value through unique product features."
   },
   {
     "id": 80,
     "question": "A manager evaluates risk before launching a new product. What process is this?",
     "options": {
-      "A": "Risk assessment",
+      "A": "Branding",
       "B": "Segmentation",
-      "C": "Branding",
+      "C": "Risk assessment",
       "D": "Benchmarking"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Risk assessment identifies potential problems before decisions."
   },
   {
     "id": 81,
     "question": "A company measures how quickly inventory is sold. What metric is this?",
     "options": {
-      "A": "Inventory turnover",
+      "A": "Debt ratio",
       "B": "Net income",
       "C": "Equity",
-      "D": "Debt ratio"
+      "D": "Inventory turnover"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Inventory turnover shows how efficiently inventory is managed."
   },
   {
@@ -987,36 +991,37 @@
     "id": 83,
     "question": "A manager allocates resources to achieve strategic goals. This relates to:",
     "options": {
-      "A": "Planning",
+      "A": "Branding",
       "B": "Marketing",
       "C": "Accounting",
-      "D": "Branding"
+      "D": "Planning"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Planning involves deciding how to allocate resources to achieve objectives."
   },
   {
     "id": 84,
     "question": "A company expands by purchasing distributors. What strategy is this?",
     "options": {
-      "A": "Vertical integration",
+      "A": "Diversification",
       "B": "Horizontal integration",
-      "C": "Diversification",
+      "C": "Vertical integration",
       "D": "Segmentation"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Vertical integration occurs when companies control supply chain stages."
   },
   {
     "id": 85,
     "question": "A company evaluates employee satisfaction surveys. What area does this support?",
     "options": {
-      "A": "Human resources management",
+      "A": "Accounting",
       "B": "Finance",
       "C": "Operations",
-      "D": "Accounting"
+      "D": "Human resources management"
+      
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Employee satisfaction relates to HR and workplace engagement."
   },
   {
@@ -1035,36 +1040,38 @@
     "id": 87,
     "question": "A company measures return compared to competitors. What is this process?",
     "options": {
-      "A": "Benchmarking",
+      "A": "Branding",
       "B": "Segmentation",
       "C": "Outsourcing",
-      "D": "Branding"
+      "D": "Benchmarking"
+      
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Benchmarking compares performance with industry standards."
   },
   {
     "id": 88,
     "question": "A manager creates long-term company goals. Which function is involved?",
     "options": {
-      "A": "Planning",
+      "A": "Controlling",
       "B": "Leading",
-      "C": "Controlling",
+      "C": "Planning",
       "D": "Organizing"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Planning defines objectives and strategies."
   },
   {
     "id": 89,
     "question": "A company analyzes customer buying behavior. What field studies this?",
     "options": {
-      "A": "Marketing",
+      "A": "Operations",
       "B": "Finance",
       "C": "Accounting",
-      "D": "Operations"
+      "D": "Marketing"
+      
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Marketing analyzes consumer behavior and purchasing patterns."
   },
   {
@@ -1083,36 +1090,36 @@
     "id": 91,
     "question": "A company evaluates its brand reputation online. What concept is measured?",
     "options": {
-      "A": "Brand equity",
+      "A": "Integration",
       "B": "Supply chain",
       "C": "Cost leadership",
-      "D": "Integration"
+      "D": "Brand equity"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Brand equity reflects perceived brand value."
   },
   {
     "id": 92,
     "question": "A company calculates the percentage of profit from sales. What metric is this?",
     "options": {
-      "A": "Profit margin",
+      "A": "Equity",
       "B": "Assets",
-      "C": "Equity",
+      "C": "Profit margin",
       "D": "Debt"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Profit margin measures profitability relative to sales."
   },
   {
     "id": 93,
     "question": "A manager motivates employees with recognition awards. What motivation type is this?",
     "options": {
-      "A": "Intrinsic motivation",
+      "A": "Equity",
       "B": "Inflation",
       "C": "Debt",
-      "D": "Equity"
+      "D": "Intrinsic motivation"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Recognition enhances intrinsic motivation."
   },
   {
@@ -1131,12 +1138,13 @@
     "id": 95,
     "question": "A company invests heavily in employee training programs. What benefit does this support?",
     "options": {
-      "A": "Human capital development",
+      "A": "Regulation",
       "B": "Cost reduction",
       "C": "Debt repayment",
-      "D": "Regulation"
+      "D": "Human capital development"
+      
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Training improves employee skills and organizational capability."
   },
   {
@@ -1155,12 +1163,12 @@
     "id": 97,
     "question": "A company tracks the number of customer complaints. What is this measuring?",
     "options": {
-      "A": "Service quality",
+      "A": "Debt",
       "B": "Equity",
       "C": "Assets",
-      "D": "Debt"
+      "D": "Service quality"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Customer complaints indicate service performance."
   },
   {
@@ -1179,12 +1187,13 @@
     "id": 99,
     "question": "A company reduces environmental impact by using renewable energy. What principle is demonstrated?",
     "options": {
-      "A": "Sustainability",
+      "A": "Branding",
       "B": "Segmentation",
       "C": "Downsizing",
-      "D": "Branding"
+      "D": "Sustainability"
+      
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Sustainability focuses on reducing environmental impact."
   },
   {
@@ -1914,12 +1923,12 @@
     "id": 156,
     "question": "A bank automated loan applications and reduced decision time. After launch, call-center contacts increased and abandonment rose mid-application. Applicants report confusion about required documents and unclear step-by-step guidance. Leadership wants to keep automation efficiency while improving customer experience and reducing avoidable support demand. What is the best immediate improvement step?",
     "options": {
-      "A": "Simplify forms and clarify on-screen guidance",
+      "A": "Force all applicants into branch visits",
       "B": "Tighten approval rules to lower volume",
-      "C": "Force all applicants into branch visits",
+      "C": "Simplify forms and clarify on-screen guidance",
       "D": "Reduce products to one standard loan"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Better UX lowers confusion and support load while retaining automation."
   },
   {
@@ -2010,12 +2019,12 @@
     "id": 164,
     "question": "A food delivery platform wants to reduce customer delivery time. Data shows the biggest delays occur before pickup because drivers travel far to reach restaurants. Leadership wants faster deliveries without dropping restaurants or increasing broad fees. Operations needs a change that targets the primary delay driver while maintaining marketplace coverage. Which operational change best reduces the pickup delay component?",
     "options": {
-      "A": "Dispatch drivers already near the restaurant",
+      "A": "Limit restaurants to top-volume partners",
       "B": "Reduce driver pay to increase acceptance",
-      "C": "Limit restaurants to top-volume partners",
+      "C": "Dispatch drivers already near the restaurant",
       "D": "Increase menu prices for distant orders"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Near-restaurant dispatch reduces travel-to-pickup time, the largest delay."
   },
   {
@@ -2059,11 +2068,12 @@
     "question": "An electronics retailer observes that many customers research products online before visiting stores. Shoppers compare specifications, check availability, and look for delivery or pickup options. Leadership wants to integrate online and in-store experiences to reduce friction and capture more sales, while keeping inventory manageable. Which initiative best supports an omnichannel experience with minimal disruption?",
     "options": {
       "A": "Increase store hours to capture more visits",
-      "B": "Offer buy-online and pick up in-store",
+      "B": "Reduce product information on the website",
       "C": "Remove online promotions to drive store traffic",
-      "D": "Reduce product information on the website"
+      "D": "Offer buy-online and pick up in-store"
+      
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "explanation": "BOPIS connects digital intent with store fulfillment and reduces purchase friction."
   },
   {
@@ -2095,11 +2105,12 @@
     "question": "A company faced multiple attempted cyber intrusions. Investigations show some employees reuse passwords and fall for realistic phishing emails. Leadership believes a major portion of risk is human behavior rather than technology alone. The company already has baseline security tools, but incidents persist due to user actions. Leadership wants a practical initiative that reduces risk quickly without harming productivity. What is the best next step?",
     "options": {
       "A": "Install more office security cameras everywhere",
-      "B": "Require cybersecurity training and enforce policies",
+      "B": "Ban remote work to reduce exposure",
       "C": "Restrict internet access for all employees",
-      "D": "Ban remote work to reduce exposure"
+      "D": "Require cybersecurity training and enforce policies"
+      
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "explanation": "Training plus enforced controls reduces phishing and weak-password risk."
   },
   {
