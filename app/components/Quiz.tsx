@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 export type QuizQuestion = {
   id: number | string;
@@ -70,14 +70,6 @@ export default function Quiz({ questions, seed }: QuizProps) {
   const [remainingQuestionIds, setRemainingQuestionIds] = useState<string[]>(
     () => orderedQuestions.map((q) => normalizeId(q.id)),
   );
-
-  useEffect(() => {
-    setRemainingQuestionIds(orderedQuestions.map((q) => normalizeId(q.id)));
-    setActiveQuestionIds([]);
-    setAnswersById({});
-    setCurrentIndex(0);
-    setPhase("setup");
-  }, [orderedQuestions]);
 
   const activeQuestions = useMemo(() => {
     if (phase === "setup") return [];
