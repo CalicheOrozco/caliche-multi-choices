@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "A team has experienced a drop in productivity after an organizational change. What should the manager do first?",
+    "options": {
+      "A": "Replace several team members",
+      "B": "Increase direct supervision",
+      "C": "Talk with the team to understand their concerns",
+      "D": "Lower the team's performance targets"
+    },
+    "correct_answer": "C",
+    "explanation": "When productivity drops after organizational change, the first step is understanding the root cause. Communicating with the team helps identify concerns or misunderstandings."
+  },
+  {
+    "id": 2,
+    "question": "A highly skilled employee has recently lost motivation. What should the manager do first?",
+    "options": {
+      "A": "Give the employee a salary raise",
+      "B": "Analyze what factors are affecting the employee's motivation",
+      "C": "Assign more tasks",
+      "D": "Issue a formal warning"
+    },
+    "correct_answer": "B",
+    "explanation": "Managers should first identify the root cause of decreased motivation before taking action."
+  },
+  {
+    "id": 3,
+    "question": "Two departments frequently have conflicts that affect productivity. What is the most effective action?",
+    "options": {
+      "A": "Separate the departments completely",
+      "B": "Facilitate a meeting to resolve the conflict",
+      "C": "Ignore the issue",
+      "D": "Replace the manager"
+    },
+    "correct_answer": "B",
+    "explanation": "Facilitating discussion helps identify misunderstandings and promotes collaboration between departments."
+  },
+  {
+    "id": 4,
+    "question": "A new manager wants to build trust within the team. What action would be most effective?",
+    "options": {
+      "A": "Make all decisions independently",
+      "B": "Delegate important responsibilities",
+      "C": "Reduce communication",
+      "D": "Implement strict rules"
+    },
+    "correct_answer": "B",
+    "explanation": "Delegation empowers employees and demonstrates trust, which improves team engagement."
+  },
+  {
+    "id": 5,
+    "question": "A new employee requires significant guidance. Which leadership style is most appropriate?",
+    "options": {
+      "A": "Delegative",
+      "B": "Participative",
+      "C": "Directive",
+      "D": "Laissez-faire"
+    },
+    "correct_answer": "C",
+    "explanation": "Directive leadership is useful for employees who need clear instructions and structure."
+  },
+  {
+    "id": 6,
+    "question": "An experienced team performs best when given autonomy. Which leadership style is most appropriate?",
+    "options": {
+      "A": "Autocratic",
+      "B": "Directive",
+      "C": "Delegative",
+      "D": "Controlling"
+    },
+    "correct_answer": "C",
+    "explanation": "Experienced teams benefit from delegative leadership because it gives them autonomy."
+  },
+  {
+    "id": 7,
+    "question": "A manager wants to increase employee motivation based on Herzberg's theory. What should the manager focus on?",
+    "options": {
+      "A": "Increasing supervision",
+      "B": "Reducing employee autonomy",
+      "C": "Providing growth opportunities",
+      "D": "Limiting responsibilities"
+    },
+    "correct_answer": "C",
+    "explanation": "Herzberg's motivation theory emphasizes achievement, recognition, and growth opportunities."
+  },
+  {
+    "id": 8,
+    "question": "An employee performs well but reports low job satisfaction. What action would most likely improve the situation?",
+    "options": {
+      "A": "Increase salary only",
+      "B": "Provide recognition and development opportunities",
+      "C": "Reduce workload",
+      "D": "Ignore the concern"
+    },
+    "correct_answer": "B",
+    "explanation": "Recognition and career development improve intrinsic motivation and satisfaction."
+  },
+  {
+    "id": 9,
+    "question": "A company analyzes political, economic, social, technological, legal, and environmental factors affecting its business. What framework is being used?",
+    "options": {
+      "A": "SWOT analysis",
+      "B": "PESTLE analysis",
+      "C": "Porter's Five Forces",
+      "D": "Balanced Scorecard"
+    },
+    "correct_answer": "B",
+    "explanation": "PESTLE evaluates macro-environmental external factors affecting organizations."
+  },
+  {
+    "id": 10,
+    "question": "A company wants to assess its internal strengths and weaknesses. What tool should be used?",
+    "options": {
+      "A": "SWOT analysis",
+      "B": "Porter's Five Forces",
+      "C": "Market segmentation",
+      "D": "Break-even analysis"
+    },
+    "correct_answer": "A",
+    "explanation": "SWOT identifies internal strengths and weaknesses and external opportunities and threats."
+  },
+  {
+    "id": 11,
+    "question": "A company seeks to compete primarily by offering the lowest prices in its market. Which strategy is it pursuing?",
+    "options": {
+      "A": "Differentiation",
+      "B": "Cost leadership",
+      "C": "Focus strategy",
+      "D": "Diversification"
+    },
+    "correct_answer": "B",
+    "explanation": "Cost leadership focuses on becoming the lowest-cost producer in the market."
+  },
+  {
+    "id": 12,
+    "question": "A company positions its product as premium and unique compared to competitors. Which strategy is it pursuing?",
+    "options": {
+      "A": "Differentiation",
+      "B": "Cost leadership",
+      "C": "Downsizing",
+      "D": "Integration"
+    },
+    "correct_answer": "A",
+    "explanation": "Differentiation involves creating unique value that customers are willing to pay more for."
+  },
+  {
+    "id": 13,
+    "question": "A company analyzes supplier power and competitive rivalry. Which model is it using?",
+    "options": {
+      "A": "SWOT",
+      "B": "Porter's Five Forces",
+      "C": "PESTLE",
+      "D": "Benchmarking"
+    },
+    "correct_answer": "B",
+    "explanation": "Porter's Five Forces analyzes industry competitiveness and structure."
+  },
+  {
+    "id": 14,
+    "question": "A company enters a new geographic market using existing products. What strategy is this?",
+    "options": {
+      "A": "Market penetration",
+      "B": "Market development",
+      "C": "Product development",
+      "D": "Diversification"
+    },
+    "correct_answer": "B",
+    "explanation": "Market development targets new markets with existing products."
+  },
+  {
+    "id": 15,
+    "question": "A company launches a new product to its existing customers. What strategy is this?",
+    "options": {
+      "A": "Market penetration",
+      "B": "Market development",
+      "C": "Product development",
+      "D": "Diversification"
+    },
+    "correct_answer": "C",
+    "explanation": "Product development introduces new products to current markets."
+  },
+  {
+    "id": 16,
+    "question": "A step in production limits the output of the entire process. What is this called?",
+    "options": {
+      "A": "Bottleneck",
+      "B": "Margin",
+      "C": "Benchmark",
+      "D": "Variance"
+    },
+    "correct_answer": "A",
+    "explanation": "A bottleneck is the stage that restricts the overall capacity of a system."
+  },
+  {
+    "id": 17,
+    "question": "A company wants to eliminate waste in operations. Which method supports this?",
+    "options": {
+      "A": "Lean",
+      "B": "Downsizing",
+      "C": "Skimming",
+      "D": "Outsourcing"
+    },
+    "correct_answer": "A",
+    "explanation": "Lean focuses on reducing waste and improving efficiency."
+  },
+  {
+    "id": 18,
+    "question": "A philosophy emphasizing continuous improvement through small changes is called:",
+    "options": {
+      "A": "Kaizen",
+      "B": "Benchmarking",
+      "C": "Integration",
+      "D": "Centralization"
+    },
+    "correct_answer": "A",
+    "explanation": "Kaizen emphasizes continuous incremental improvements."
+  },
+  {
+    "id": 19,
+    "question": "A manager wants to improve efficiency. What should they do first?",
+    "options": {
+      "A": "Reduce staff",
+      "B": "Analyze and map the process",
+      "C": "Increase prices",
+      "D": "Remove training"
+    },
+    "correct_answer": "B",
+    "explanation": "Process analysis identifies inefficiencies before implementing improvements."
+  },
+  {
+    "id": 20,
+    "question": "A company hires another firm to perform non-core functions. What is this called?",
+    "options": {
+      "A": "Integration",
+      "B": "Outsourcing",
+      "C": "Diversification",
+      "D": "Benchmarking"
+    },
+    "correct_answer": "B",
+    "explanation": "Outsourcing allows firms to focus on core competencies."
+  },
+  {
+    "id": 21,
+    "question": "Which document reports revenue and expenses over time?",
+    "options": {
+      "A": "Balance sheet",
+      "B": "Income statement",
+      "C": "Cash flow statement",
+      "D": "Audit report"
+    },
+    "correct_answer": "B",
+    "explanation": "The income statement summarizes financial performance during a period."
+  },
+  {
+    "id": 22,
+    "question": "Which statement shows assets, liabilities, and equity?",
+    "options": {
+      "A": "Income statement",
+      "B": "Balance sheet",
+      "C": "Cash flow",
+      "D": "Revenue report"
+    },
+    "correct_answer": "B",
+    "explanation": "The balance sheet shows the financial position at a specific point in time."
+  },
+  {
+    "id": 23,
+    "question": "When revenue equals costs, what point is reached?",
+    "options": {
+      "A": "ROI",
+      "B": "Break-even",
+      "C": "Net income",
+      "D": "Margin"
+    },
+    "correct_answer": "B",
+    "explanation": "Break-even occurs when total revenue equals total costs."
+  },
+  {
+    "id": 24,
+    "question": "Which metric measures profitability of an investment?",
+    "options": {
+      "A": "ROI",
+      "B": "Break-even",
+      "C": "Assets",
+      "D": "Liquidity"
+    },
+    "correct_answer": "A",
+    "explanation": "ROI measures returns relative to investment cost."
+  },
+  {
+    "id": 25,
+    "question": "If costs increase but price stays the same, what happens to profit margin?",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Remain the same",
+      "D": "Double"
+    },
+    "correct_answer": "B",
+    "explanation": "Higher costs reduce profit margins."
+  },
+  {
+    "id": 26,
+    "question": "Product, price, place, and promotion represent what?",
+    "options": {
+      "A": "SWOT",
+      "B": "Marketing mix",
+      "C": "Porter model",
+      "D": "PESTLE"
+    },
+    "correct_answer": "B",
+    "explanation": "The marketing mix refers to the four Ps."
+  },
+  {
+    "id": 27,
+    "question": "Dividing customers into groups based on characteristics is:",
+    "options": {
+      "A": "Positioning",
+      "B": "Segmentation",
+      "C": "Branding",
+      "D": "Benchmarking"
+    },
+    "correct_answer": "B",
+    "explanation": "Segmentation divides a market into identifiable groups."
+  },
+  {
+    "id": 28,
+    "question": "Creating a distinct image of a product in the customer's mind is:",
+    "options": {
+      "A": "Segmentation",
+      "B": "Positioning",
+      "C": "Pricing",
+      "D": "Outsourcing"
+    },
+    "correct_answer": "B",
+    "explanation": "Positioning defines how customers perceive the product."
+  },
+  {
+    "id": 29,
+    "question": "Setting a low initial price to gain market share quickly is:",
+    "options": {
+      "A": "Penetration pricing",
+      "B": "Premium pricing",
+      "C": "Skimming",
+      "D": "Discounting"
+    },
+    "correct_answer": "A",
+    "explanation": "Penetration pricing helps gain market share rapidly."
+  },
+  {
+    "id": 30,
+    "question": "Launching a product at a high initial price is:",
+    "options": {
+      "A": "Skimming",
+      "B": "Penetration pricing",
+      "C": "Discount pricing",
+      "D": "Value pricing"
+    },
+    "correct_answer": "A",
+    "explanation": "Skimming captures early adopters willing to pay higher prices."
+  },
+  {
+    "id": 31,
+    "question": "A manager suspects falsified reports. What should be done first?",
+    "options": {
+      "A": "Ignore",
+      "B": "Investigate",
+      "C": "Terminate immediately",
+      "D": "Announce publicly"
+    },
+    "correct_answer": "B",
+    "explanation": "Managers should gather facts before taking disciplinary action."
+  },
+  {
+    "id": 32,
+    "question": "What defines a conflict of interest?",
+    "options": {
+      "A": "Long working hours",
+      "B": "Personal interests influencing professional decisions",
+      "C": "Customer complaints",
+      "D": "Budget overruns"
+    },
+    "correct_answer": "B",
+    "explanation": "A conflict occurs when personal gain may affect professional judgment."
+  },
+  {
+    "id": 33,
+    "question": "Corporate social responsibility means:",
+    "options": {
+      "A": "Only maximizing profit",
+      "B": "Ignoring environmental effects",
+      "C": "Considering social and environmental impact",
+      "D": "Reducing benefits"
+    },
+    "correct_answer": "C",
+    "explanation": "CSR involves responsible actions toward society and environment."
+  },
+  {
+    "id": 34,
+    "question": "Making decisions without full information is:",
+    "options": {
+      "A": "Decision under uncertainty",
+      "B": "Strategic alignment",
+      "C": "Segmentation",
+      "D": "Benchmarking"
+    },
+    "correct_answer": "A",
+    "explanation": "Managers often make decisions despite incomplete information."
+  },
+  {
+    "id": 35,
+    "question": "Comparing company performance with industry leaders is:",
+    "options": {
+      "A": "Benchmarking",
+      "B": "Segmentation",
+      "C": "Positioning",
+      "D": "Integration"
+    },
+    "correct_answer": "A",
+    "explanation": "Benchmarking helps identify performance improvement opportunities."
+  },
+  {
+    "id": 36,
+    "question": "Which are the four main management functions?",
+    "options": {
+      "A": "Hiring, selling, training, firing",
+      "B": "Planning, organizing, leading, controlling",
+      "C": "Designing, producing, selling, shipping",
+      "D": "Budgeting, auditing, reporting, selling"
+    },
+    "correct_answer": "B",
+    "explanation": "These four functions define the core responsibilities of management."
+  },
+  {
+    "id": 37,
+    "question": "Delegation means:",
+    "options": {
+      "A": "Avoiding responsibility",
+      "B": "Assigning tasks with authority",
+      "C": "Doing all work personally",
+      "D": "Ignoring team input"
+    },
+    "correct_answer": "B",
+    "explanation": "Delegation assigns responsibility while maintaining accountability."
+  },
+  {
+    "id": 38,
+    "question": "What is the main purpose of KPIs?",
+    "options": {
+      "A": "Measure performance",
+      "B": "Reduce costs",
+      "C": "Hire employees",
+      "D": "Market products"
+    },
+    "correct_answer": "A",
+    "explanation": "KPIs track progress toward objectives."
+  },
+  {
+    "id": 39,
+    "question": "What helps managers track productivity?",
+    "options": {
+      "A": "KPIs",
+      "B": "SWOT",
+      "C": "PESTLE",
+      "D": "Segmentation"
+    },
+    "correct_answer": "A",
+    "explanation": "KPIs provide measurable performance indicators."
+  },
+  {
+    "id": 40,
+    "question": "Inspiring others toward a shared goal is:",
+    "options": {
+      "A": "Leadership",
+      "B": "Accounting",
+      "C": "Segmentation",
+      "D": "Outsourcing"
+    },
+    "correct_answer": "A",
+    "explanation": "Leadership focuses on influencing and motivating people."
+  },
+  {
+    "id": 41,
+    "question": "Customers leave due to poor service. What should improve first?",
+    "options": {
+      "A": "Advertising",
+      "B": "Service quality",
+      "C": "Pricing",
+      "D": "Expansion"
+    },
+    "correct_answer": "B",
+    "explanation": "Improving service quality directly addresses the problem."
+  },
+  {
+    "id": 42,
+    "question": "A project exceeds its budget. What should the manager do?",
+    "options": {
+      "A": "Ignore",
+      "B": "Analyze causes",
+      "C": "Cancel immediately",
+      "D": "Reduce quality"
+    },
+    "correct_answer": "B",
+    "explanation": "Identifying root causes helps correct the issue."
+  },
+  {
+    "id": 43,
+    "question": "Employees lack skills to meet targets. Best solution?",
+    "options": {
+      "A": "Fire employees",
+      "B": "Training",
+      "C": "Lower targets",
+      "D": "Ignore"
+    },
+    "correct_answer": "B",
+    "explanation": "Training improves capability and performance."
+  },
+  {
+    "id": 44,
+    "question": "A company depends on one supplier. Main risk?",
+    "options": {
+      "A": "Supply disruption",
+      "B": "Brand risk",
+      "C": "Segmentation risk",
+      "D": "Pricing risk"
+    },
+    "correct_answer": "A",
+    "explanation": "Dependence on one supplier increases disruption risk."
+  },
+  {
+    "id": 45,
+    "question": "What promotes innovation in teams?",
+    "options": {
+      "A": "Encouraging experimentation",
+      "B": "Strict control",
+      "C": "Limited communication",
+      "D": "Punishing mistakes"
+    },
+    "correct_answer": "A",
+    "explanation": "Innovation thrives in environments that encourage experimentation."
+  },
+  {
+    "id": 46,
+    "question": "Buying a competitor is:",
+    "options": {
+      "A": "Horizontal integration",
+      "B": "Vertical integration",
+      "C": "Diversification",
+      "D": "Outsourcing"
+    },
+    "correct_answer": "A",
+    "explanation": "Horizontal integration occurs when firms acquire competitors."
+  },
+  {
+    "id": 47,
+    "question": "Acquiring suppliers is:",
+    "options": {
+      "A": "Vertical integration",
+      "B": "Horizontal integration",
+      "C": "Segmentation",
+      "D": "Diversification"
+    },
+    "correct_answer": "A",
+    "explanation": "Vertical integration increases control over supply chains."
+  },
+  {
+    "id": 48,
+    "question": "New products in new markets represent:",
+    "options": {
+      "A": "Diversification",
+      "B": "Market penetration",
+      "C": "Cost leadership",
+      "D": "Integration"
+    },
+    "correct_answer": "A",
+    "explanation": "Diversification involves new products in new markets."
+  },
+  {
+    "id": 49,
+    "question": "Reducing workforce to stabilize finances is:",
+    "options": {
+      "A": "Downsizing",
+      "B": "Differentiation",
+      "C": "Market development",
+      "D": "Skimming"
+    },
+    "correct_answer": "A",
+    "explanation": "Downsizing reduces operational costs during financial pressure."
+  },
+  {
+    "id": 50,
+    "question": "Improving processes through small continuous changes is:",
+    "options": {
+      "A": "Kaizen",
+      "B": "Outsourcing",
+      "C": "Skimming",
+      "D": "Cost leadership"
+    },
+    "correct_answer": "A",
+    "explanation": "Kaizen focuses on continuous incremental improvement."
+  },
+  {
+    "id": 51,
+    "question": "A manager notices that employees are unclear about their roles. What should the manager do first?",
+    "options": {
+      "A": "Replace team members",
+      "B": "Clarify responsibilities and expectations",
+      "C": "Increase salaries",
+      "D": "Reduce workload"
+    },
+    "correct_answer": "B",
+    "explanation": "Clearly defining roles and responsibilities helps prevent confusion and improves team efficiency."
+  },
+  {
+    "id": 52,
+    "question": "A team consistently meets goals but lacks innovation. What should the manager encourage?",
+    "options": {
+      "A": "Strict supervision",
+      "B": "Creative thinking and experimentation",
+      "C": "More rules",
+      "D": "Less collaboration"
+    },
+    "correct_answer": "B",
+    "explanation": "Encouraging experimentation fosters innovation and creative problem solving."
+  },
+  {
+    "id": 53,
+    "question": "Employees complain about unclear company direction. What should leadership provide?",
+    "options": {
+      "A": "Higher salaries",
+      "B": "Clear vision and strategy",
+      "C": "More supervisors",
+      "D": "Shorter workdays"
+    },
+    "correct_answer": "B",
+    "explanation": "A clear organizational vision helps employees align their work with company goals."
+  },
+  {
+    "id": 54,
+    "question": "A company studies demographic trends affecting demand. What analysis is this?",
+    "options": {
+      "A": "SWOT",
+      "B": "PESTLE",
+      "C": "Break-even",
+      "D": "Benchmarking"
+    },
+    "correct_answer": "B",
+    "explanation": "PESTLE includes social and demographic factors affecting the external environment."
+  },
+  {
+    "id": 55,
+    "question": "A company wants to measure how efficiently it uses assets. Which metric is useful?",
+    "options": {
+      "A": "ROI",
+      "B": "Asset turnover",
+      "C": "Break-even",
+      "D": "Gross margin"
+    },
+    "correct_answer": "B",
+    "explanation": "Asset turnover measures how effectively assets generate revenue."
+  },
+  {
+    "id": 56,
+    "question": "A manager asks employees for input before making decisions. What leadership style is this?",
+    "options": {
+      "A": "Autocratic",
+      "B": "Participative",
+      "C": "Directive",
+      "D": "Authoritarian"
+    },
+    "correct_answer": "B",
+    "explanation": "Participative leadership involves employees in decision-making."
+  },
+  {
+    "id": 57,
+    "question": "A company studies competitors' pricing strategies. This is part of:",
+    "options": {
+      "A": "Competitive analysis",
+      "B": "PESTLE",
+      "C": "Income statement",
+      "D": "Outsourcing"
+    },
+    "correct_answer": "A",
+    "explanation": "Competitive analysis evaluates competitor strategies and positioning."
+  },
+  {
+    "id": 58,
+    "question": "Which financial statement shows cash inflows and outflows?",
+    "options": {
+      "A": "Balance sheet",
+      "B": "Cash flow statement",
+      "C": "Income statement",
+      "D": "Sales report"
+    },
+    "correct_answer": "B",
+    "explanation": "The cash flow statement tracks how cash moves in and out of a business."
+  },
+  {
+    "id": 59,
+    "question": "A manager tracks employee absenteeism monthly. What management tool is being used?",
+    "options": {
+      "A": "KPI",
+      "B": "SWOT",
+      "C": "PESTLE",
+      "D": "Segmentation"
+    },
+    "correct_answer": "A",
+    "explanation": "Key Performance Indicators track measurable performance metrics."
+  },
+  {
+    "id": 60,
+    "question": "A company wants to expand by selling existing products to current markets more aggressively. Which strategy is this?",
+    "options": {
+      "A": "Market penetration",
+      "B": "Diversification",
+      "C": "Product development",
+      "D": "Integration"
+    },
+    "correct_answer": "A",
+    "explanation": "Market penetration focuses on increasing market share with existing products."
+  },
+  {
+    "id": 61,
+    "question": "A firm evaluates the threat of new competitors entering its industry. Which model applies?",
+    "options": {
+      "A": "SWOT",
+      "B": "Porter's Five Forces",
+      "C": "PESTLE",
+      "D": "Balanced Scorecard"
+    },
+    "correct_answer": "B",
+    "explanation": "Porter's Five Forces includes the threat of new entrants."
+  },
+  {
+    "id": 62,
+    "question": "A manager assigns tasks based on employee strengths. This improves:",
+    "options": {
+      "A": "Efficiency",
+      "B": "Inflation",
+      "C": "Debt",
+      "D": "Regulation"
+    },
+    "correct_answer": "A",
+    "explanation": "Matching tasks to strengths improves productivity and performance."
+  },
+  {
+    "id": 63,
+    "question": "A company analyzes customer feedback to improve products. This focuses on:",
+    "options": {
+      "A": "Customer satisfaction",
+      "B": "Inventory turnover",
+      "C": "Debt ratio",
+      "D": "Asset depreciation"
+    },
+    "correct_answer": "A",
+    "explanation": "Customer feedback helps organizations improve satisfaction and product quality."
+  },
+  {
+    "id": 64,
+    "question": "A manager tracks the cost of producing each unit. This relates to:",
+    "options": {
+      "A": "Cost control",
+      "B": "Market segmentation",
+      "C": "Leadership style",
+      "D": "Branding"
+    },
+    "correct_answer": "A",
+    "explanation": "Monitoring unit costs helps control expenses and improve profitability."
+  },
+  {
+    "id": 65,
+    "question": "Employees are rewarded for reaching performance targets. What system is this?",
+    "options": {
+      "A": "Incentive system",
+      "B": "Downsizing",
+      "C": "Segmentation",
+      "D": "Centralization"
+    },
+    "correct_answer": "A",
+    "explanation": "Incentives motivate employees to achieve performance goals."
+  },
+  {
+    "id": 66,
+    "question": "A company sells different products to different age groups. What strategy is this?",
+    "options": {
+      "A": "Market segmentation",
+      "B": "Benchmarking",
+      "C": "Outsourcing",
+      "D": "Integration"
+    },
+    "correct_answer": "A",
+    "explanation": "Segmentation targets specific customer groups."
+  },
+  {
+    "id": 67,
+    "question": "A manager compares current performance with last year's results. This is:",
+    "options": {
+      "A": "Trend analysis",
+      "B": "Segmentation",
+      "C": "Diversification",
+      "D": "Downsizing"
+    },
+    "correct_answer": "A",
+    "explanation": "Trend analysis examines changes over time."
+  },
+  {
+    "id": 68,
+    "question": "A company invests in research to develop new technology. This improves:",
+    "options": {
+      "A": "Innovation",
+      "B": "Inflation",
+      "C": "Debt",
+      "D": "Compliance"
+    },
+    "correct_answer": "A",
+    "explanation": "Research and development promotes innovation."
+  },
+  {
+    "id": 69,
+    "question": "A company studies environmental regulations affecting its industry. Which factor is this?",
+    "options": {
+      "A": "Legal",
+      "B": "Technological",
+      "C": "Social",
+      "D": "Competitive"
+    },
+    "correct_answer": "A",
+    "explanation": "Legal factors in PESTLE include laws and regulations."
+  },
+  {
+    "id": 70,
+    "question": "A manager focuses on building team morale. This mainly improves:",
+    "options": {
+      "A": "Employee engagement",
+      "B": "Debt ratio",
+      "C": "Inventory turnover",
+      "D": "Gross margin"
+    },
+    "correct_answer": "A",
+    "explanation": "High morale leads to greater engagement and productivity."
+  },
+  {
+    "id": 71,
+    "question": "A company measures profit as revenue minus expenses. What is this called?",
+    "options": {
+      "A": "Net income",
+      "B": "Assets",
+      "C": "Liabilities",
+      "D": "Equity"
+    },
+    "correct_answer": "A",
+    "explanation": "Net income represents total profit after expenses."
+  },
+  {
+    "id": 72,
+    "question": "A manager organizes employees into specialized teams. This is part of:",
+    "options": {
+      "A": "Organizing",
+      "B": "Planning",
+      "C": "Controlling",
+      "D": "Leading"
+    },
+    "correct_answer": "A",
+    "explanation": "Organizing involves structuring teams and resources."
+  },
+  {
+    "id": 73,
+    "question": "A company improves supply chain efficiency. What area of management is involved?",
+    "options": {
+      "A": "Operations",
+      "B": "Marketing",
+      "C": "Finance",
+      "D": "Human resources"
+    },
+    "correct_answer": "A",
+    "explanation": "Operations management oversees production and supply chains."
+  },
+  {
+    "id": 74,
+    "question": "A manager monitors progress toward goals. Which management function is this?",
+    "options": {
+      "A": "Controlling",
+      "B": "Planning",
+      "C": "Leading",
+      "D": "Marketing"
+    },
+    "correct_answer": "A",
+    "explanation": "Controlling ensures activities stay aligned with plans."
+  },
+  {
+    "id": 75,
+    "question": "A company increases brand awareness through advertising. What function is this?",
+    "options": {
+      "A": "Marketing",
+      "B": "Operations",
+      "C": "Finance",
+      "D": "Accounting"
+    },
+    "correct_answer": "A",
+    "explanation": "Marketing activities promote products and brand recognition."
+  },
+  {
+    "id": 76,
+    "question": "A manager encourages employees to share ideas. What leadership trait is shown?",
+    "options": {
+      "A": "Openness",
+      "B": "Authority",
+      "C": "Control",
+      "D": "Isolation"
+    },
+    "correct_answer": "A",
+    "explanation": "Open communication encourages collaboration and creativity."
+  },
+  {
+    "id": 77,
+    "question": "A company reduces production costs by automating processes. What benefit is achieved?",
+    "options": {
+      "A": "Efficiency",
+      "B": "Segmentation",
+      "C": "Diversification",
+      "D": "Outsourcing"
+    },
+    "correct_answer": "A",
+    "explanation": "Automation often increases operational efficiency."
+  },
+  {
+    "id": 78,
+    "question": "A manager schedules regular performance reviews. What purpose does this serve?",
+    "options": {
+      "A": "Feedback and improvement",
+      "B": "Marketing",
+      "C": "Debt management",
+      "D": "Segmentation"
+    },
+    "correct_answer": "A",
+    "explanation": "Performance reviews provide feedback and development opportunities."
+  },
+  {
+    "id": 79,
+    "question": "A company increases product quality to gain competitive advantage. What strategy is this?",
+    "options": {
+      "A": "Differentiation",
+      "B": "Cost leadership",
+      "C": "Downsizing",
+      "D": "Outsourcing"
+    },
+    "correct_answer": "A",
+    "explanation": "Differentiation creates value through unique product features."
+  },
+  {
+    "id": 80,
+    "question": "A manager evaluates risk before launching a new product. What process is this?",
+    "options": {
+      "A": "Risk assessment",
+      "B": "Segmentation",
+      "C": "Branding",
+      "D": "Benchmarking"
+    },
+    "correct_answer": "A",
+    "explanation": "Risk assessment identifies potential problems before decisions."
+  },
+  {
+    "id": 81,
+    "question": "A company measures how quickly inventory is sold. What metric is this?",
+    "options": {
+      "A": "Inventory turnover",
+      "B": "Net income",
+      "C": "Equity",
+      "D": "Debt ratio"
+    },
+    "correct_answer": "A",
+    "explanation": "Inventory turnover shows how efficiently inventory is managed."
+  },
+  {
+    "id": 82,
+    "question": "A company launches environmentally friendly products. What concept is demonstrated?",
+    "options": {
+      "A": "Sustainability",
+      "B": "Segmentation",
+      "C": "Benchmarking",
+      "D": "Integration"
+    },
+    "correct_answer": "A",
+    "explanation": "Sustainability focuses on environmentally responsible practices."
+  },
+  {
+    "id": 83,
+    "question": "A manager allocates resources to achieve strategic goals. This relates to:",
+    "options": {
+      "A": "Planning",
+      "B": "Marketing",
+      "C": "Accounting",
+      "D": "Branding"
+    },
+    "correct_answer": "A",
+    "explanation": "Planning involves deciding how to allocate resources to achieve objectives."
+  },
+  {
+    "id": 84,
+    "question": "A company expands by purchasing distributors. What strategy is this?",
+    "options": {
+      "A": "Vertical integration",
+      "B": "Horizontal integration",
+      "C": "Diversification",
+      "D": "Segmentation"
+    },
+    "correct_answer": "A",
+    "explanation": "Vertical integration occurs when companies control supply chain stages."
+  },
+  {
+    "id": 85,
+    "question": "A company evaluates employee satisfaction surveys. What area does this support?",
+    "options": {
+      "A": "Human resources management",
+      "B": "Finance",
+      "C": "Operations",
+      "D": "Accounting"
+    },
+    "correct_answer": "A",
+    "explanation": "Employee satisfaction relates to HR and workplace engagement."
+  },
+  {
+    "id": 86,
+    "question": "A manager ensures company policies are followed. Which function is this?",
+    "options": {
+      "A": "Controlling",
+      "B": "Planning",
+      "C": "Marketing",
+      "D": "Innovation"
+    },
+    "correct_answer": "A",
+    "explanation": "Controlling ensures compliance with policies and standards."
+  },
+  {
+    "id": 87,
+    "question": "A company measures return compared to competitors. What is this process?",
+    "options": {
+      "A": "Benchmarking",
+      "B": "Segmentation",
+      "C": "Outsourcing",
+      "D": "Branding"
+    },
+    "correct_answer": "A",
+    "explanation": "Benchmarking compares performance with industry standards."
+  },
+  {
+    "id": 88,
+    "question": "A manager creates long-term company goals. Which function is involved?",
+    "options": {
+      "A": "Planning",
+      "B": "Leading",
+      "C": "Controlling",
+      "D": "Organizing"
+    },
+    "correct_answer": "A",
+    "explanation": "Planning defines objectives and strategies."
+  },
+  {
+    "id": 89,
+    "question": "A company analyzes customer buying behavior. What field studies this?",
+    "options": {
+      "A": "Marketing",
+      "B": "Finance",
+      "C": "Accounting",
+      "D": "Operations"
+    },
+    "correct_answer": "A",
+    "explanation": "Marketing analyzes consumer behavior and purchasing patterns."
+  },
+  {
+    "id": 90,
+    "question": "A manager provides coaching to employees. What leadership focus is this?",
+    "options": {
+      "A": "Development",
+      "B": "Control",
+      "C": "Authority",
+      "D": "Compliance"
+    },
+    "correct_answer": "A",
+    "explanation": "Coaching focuses on employee development and skill improvement."
+  },
+  {
+    "id": 91,
+    "question": "A company evaluates its brand reputation online. What concept is measured?",
+    "options": {
+      "A": "Brand equity",
+      "B": "Supply chain",
+      "C": "Cost leadership",
+      "D": "Integration"
+    },
+    "correct_answer": "A",
+    "explanation": "Brand equity reflects perceived brand value."
+  },
+  {
+    "id": 92,
+    "question": "A company calculates the percentage of profit from sales. What metric is this?",
+    "options": {
+      "A": "Profit margin",
+      "B": "Assets",
+      "C": "Equity",
+      "D": "Debt"
+    },
+    "correct_answer": "A",
+    "explanation": "Profit margin measures profitability relative to sales."
+  },
+  {
+    "id": 93,
+    "question": "A manager motivates employees with recognition awards. What motivation type is this?",
+    "options": {
+      "A": "Intrinsic motivation",
+      "B": "Inflation",
+      "C": "Debt",
+      "D": "Equity"
+    },
+    "correct_answer": "A",
+    "explanation": "Recognition enhances intrinsic motivation."
+  },
+  {
+    "id": 94,
+    "question": "A company expands product lines into unrelated industries. What strategy is this?",
+    "options": {
+      "A": "Diversification",
+      "B": "Penetration",
+      "C": "Segmentation",
+      "D": "Downsizing"
+    },
+    "correct_answer": "A",
+    "explanation": "Diversification introduces new products into new industries."
+  },
+  {
+    "id": 95,
+    "question": "A company invests heavily in employee training programs. What benefit does this support?",
+    "options": {
+      "A": "Human capital development",
+      "B": "Cost reduction",
+      "C": "Debt repayment",
+      "D": "Regulation"
+    },
+    "correct_answer": "A",
+    "explanation": "Training improves employee skills and organizational capability."
+  },
+  {
+    "id": 96,
+    "question": "A manager evaluates multiple alternatives before making decisions. What skill is this?",
+    "options": {
+      "A": "Critical thinking",
+      "B": "Segmentation",
+      "C": "Outsourcing",
+      "D": "Benchmarking"
+    },
+    "correct_answer": "A",
+    "explanation": "Critical thinking helps evaluate options and consequences."
+  },
+  {
+    "id": 97,
+    "question": "A company tracks the number of customer complaints. What is this measuring?",
+    "options": {
+      "A": "Service quality",
+      "B": "Equity",
+      "C": "Assets",
+      "D": "Debt"
+    },
+    "correct_answer": "A",
+    "explanation": "Customer complaints indicate service performance."
+  },
+  {
+    "id": 98,
+    "question": "A manager communicates company goals regularly. What benefit does this provide?",
+    "options": {
+      "A": "Alignment",
+      "B": "Inflation",
+      "C": "Debt",
+      "D": "Segmentation"
+    },
+    "correct_answer": "A",
+    "explanation": "Clear communication aligns employees with organizational objectives."
+  },
+  {
+    "id": 99,
+    "question": "A company reduces environmental impact by using renewable energy. What principle is demonstrated?",
+    "options": {
+      "A": "Sustainability",
+      "B": "Segmentation",
+      "C": "Downsizing",
+      "D": "Branding"
+    },
+    "correct_answer": "A",
+    "explanation": "Sustainability focuses on reducing environmental impact."
+  },
+  {
+    "id": 100,
+    "question": "A manager encourages collaboration between departments. What benefit is expected?",
+    "options": {
+      "A": "Better coordination",
+      "B": "Higher debt",
+      "C": "Less productivity",
+      "D": "Reduced innovation"
+    },
+    "correct_answer": "A",
+    "explanation": "Cross-department collaboration improves coordination and efficiency."
+  }
+]
