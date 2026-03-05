@@ -221,6 +221,84 @@ export default function Quiz({ questions, seed }: QuizProps) {
           </div>
         </div>
 
+        <section className="mt-6">
+          <h3 className="text-sm font-semibold">Question review</h3>
+          <div className="mt-3 flex flex-col gap-3">
+            {activeQuestions.map((q, index) => {
+              const qId = normalizeId(q.id);
+              const a = answersById[qId];
+
+              const selectedKey = a?.selected;
+              const selectedLabel = selectedKey ? q.options?.[selectedKey] : undefined;
+              const correctKey = q.correct_answer;
+              const correctLabel = q.options?.[correctKey];
+
+              const answered = !!a?.checked && !!selectedKey;
+              const isCorrect = a?.isCorrect === true;
+
+              const userBoxClass = !answered
+                ? "rounded-xl border border-black/8 p-4 dark:border-white/[.145]"
+                : isCorrect
+                  ? "rounded-xl border border-green-600 bg-green-50 p-4 text-green-950 dark:border-green-400 dark:bg-green-950/40 dark:text-green-50"
+                  : "rounded-xl border border-red-600 bg-red-50 p-4 text-red-950 dark:border-red-400 dark:bg-red-950/40 dark:text-red-50";
+
+              return (
+                <div
+                  key={qId}
+                  className="rounded-2xl border border-black/8 p-4 dark:border-white/[.145]"
+                >
+                  <p className="text-sm font-semibold leading-6">
+                    {index + 1}. {q.question}
+                  </p>
+
+                  <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                    <div className={userBoxClass}>
+                      <p className="text-xs text-zinc-600 dark:text-zinc-400">
+                        Your answer
+                      </p>
+                      <p className="mt-1 text-sm leading-6">
+                        {selectedKey ? (
+                          <>
+                            <span className="font-semibold">{selectedKey}.</span>{" "}
+                            {selectedLabel ?? ""}
+                          </>
+                        ) : (
+                          <span className="text-zinc-600 dark:text-zinc-400">
+                            Not answered
+                          </span>
+                        )}
+                      </p>
+                    </div>
+
+                    <div className="rounded-xl border border-green-600 bg-green-50 p-4 text-green-950 dark:border-green-400 dark:bg-green-950/40 dark:text-green-50">
+                      <p className="text-xs text-green-800/80 dark:text-green-100/80">
+                        Correct answer
+                      </p>
+                      <p className="mt-1 text-sm leading-6">
+                        <span className="font-semibold">{correctKey}.</span>{" "}
+                        {correctLabel ?? ""}
+                      </p>
+                    </div>
+                  </div>
+
+                  {q.explanation && (
+                    <section className="mt-4 rounded-2xl border border-blue-200 bg-blue-50 p-4 text-blue-950 ring-1 ring-blue-200/70 dark:border-blue-400/60 dark:bg-blue-500/15 dark:text-blue-50 dark:ring-blue-400/30">
+                      <div className="border-l-4 border-blue-500 pl-3">
+                        <h4 className="text-sm font-semibold tracking-wide">
+                          Explanation
+                        </h4>
+                        <p className="mt-1 text-sm leading-6 text-blue-900 dark:text-blue-100">
+                          {q.explanation}
+                        </p>
+                      </div>
+                    </section>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
         <div className="mt-5 flex flex-wrap items-center gap-3">
           <button
             type="button"
