@@ -419,7 +419,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
             <button
               type="button"
               onClick={goNext}
-              className="inline-flex h-10 w-full items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6 sm:w-auto"
+              className="inline-flex bg-blue-600 h-10 w-full items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6 sm:w-auto"
             >
               Next
             </button>
@@ -429,7 +429,7 @@ export default function Quiz({ questions, seed }: QuizProps) {
             <button
               type="button"
               onClick={() => setPhase("results")}
-              className="inline-flex h-10 w-full items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6 sm:w-auto"
+              className="inline-flex h-10 w-full bg-green-600 items-center justify-center rounded-full border border-black/8 px-5 text-sm font-medium transition-colors hover:bg-black/3 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white/[.145] dark:hover:bg-white/6 sm:w-auto"
             >
               Results
             </button>
