@@ -1199,1207 +1199,1258 @@
     "correct_answer": "A",
     "explanation": "Cross-department collaboration improves coordination and efficiency."
   },
+  
+{
+"id":101,
+"question":"A regional retail company operating more than forty stores recently introduced centralized workforce scheduling intended to reduce labor costs and improve operational efficiency. Previously, store managers created their own schedules based on local traffic patterns and seasonal demand. After the change, scheduling decisions are now made centrally using historical averages across the entire network. During the following quarter, customer complaints regarding checkout wait times increased significantly even though overall store traffic remained stable. Store managers argue that the new scheduling approach does not adequately account for sudden demand spikes during promotions and weekends. Corporate leadership believes service problems may instead reflect inconsistent employee performance rather than scheduling decisions. Before reversing the centralized scheduling policy, executives want to determine whether staffing patterns are actually responsible for longer wait times. Which analysis would most effectively help management evaluate the situation?",
+"options":{
+"A":"Review employee training participation rates across locations",
+"B":"Analyze staffing levels compared with hourly traffic patterns",
+"C":"Evaluate customer demographics across store regions",
+"D":"Measure advertising activity during promotional periods"
+},
+"correct_answer":"B",
+"explanation":"Comparing staffing levels with demand patterns identifies whether scheduling created service bottlenecks."
+},
 
-  {
-    "id": 101,
-    "question": "A call center’s customer satisfaction has fallen for three months while average handle time (AHT) has improved. The center also reports increased repeat calls. What is the best management conclusion and next step?",
-    "options": {
-      "A": "AHT improvements prove efficiency; increase call quotas further",
-      "B": "Lower satisfaction is likely unrelated; focus on new scripting",
-      "C": "AHT improvement may be causing unresolved issues; analyze first-call resolution and quality monitoring data",
-      "D": "Repeat calls indicate customers like the service; no action needed"
-    },
-    "correct_answer": "C",
-    "explanation": "Better AHT can come from rushing calls, reducing first-call resolution. The most realistic next step is to validate with quality/FCR data before changing targets."
-  },
-  {
-    "id": 102,
-    "question": "A project is 20% behind schedule. The sponsor proposes adding 3 developers immediately. The team lead warns onboarding will slow the team and the work has high interdependencies. What is the best response?",
-    "options": {
-      "A": "Add all developers immediately; more people always increases output",
-      "B": "Reject adding anyone; only overtime can recover schedule",
-      "C": "Perform a schedule recovery analysis (critical path/constraints) and consider targeted additions only to parallelizable tasks",
-      "D": "Freeze requirements entirely and ship with known defects"
-    },
-    "correct_answer": "C",
-    "explanation": "Adding people can delay work when tasks are interdependent (onboarding/coordination). A realistic response is to analyze the critical path and add capacity only where it truly reduces the constraint."
-  },
-  {
-    "id": 103,
-    "question": "Your company’s gross margin is stable, but net profit is declining. Which is the most plausible primary driver?",
-    "options": {
-      "A": "Cost of goods sold is increasing",
-      "B": "Operating expenses or interest/taxes are increasing",
-      "C": "Inventory turnover is improving",
-      "D": "Unit economics are improving"
-    },
-    "correct_answer": "B",
-    "explanation": "If gross margin is stable, the decline is likely below the gross profit line—higher operating expenses, interest, depreciation, or taxes."
-  },
-  {
-    "id": 104,
-    "question": "A manager must choose between two vendors. Vendor A is cheaper but has a 10% defect rate. Vendor B costs 8% more but has a 1% defect rate. Returns and rework cost $120 per defective unit; annual volume is 5,000 units; unit purchase price from A is $50. Which vendor is lower expected total cost?",
-    "options": {
-      "A": "Vendor A",
-      "B": "Vendor B",
-      "C": "They are equal",
-      "D": "Not enough information"
-    },
-    "correct_answer": "B",
-    "explanation": "Vendor A: purchase 5,000*$50=$250,000 plus defects 10%*5,000=500 defects*120=$60,000 total=$310,000. Vendor B: price $50*1.08=$54; purchase 5,000*$54=$270,000 plus defects 1%*5,000=50*120=$6,000 total=$276,000."
-  },
-  {
-    "id": 105,
-    "question": "A retail chain is losing market share. Competitive analysis shows rivals match prices but win on convenience and speed. Which strategic move best aligns with the evidence?",
-    "options": {
-      "A": "Compete on price with deep discounts",
-      "B": "Pursue differentiation through faster fulfillment and improved customer experience",
-      "C": "Exit the market immediately",
-      "D": "Raise prices to signal premium quality"
-    },
-    "correct_answer": "B",
-    "explanation": "If competitors match prices but win on convenience/speed, the best strategic response is to differentiate on service/fulfillment rather than start a price war."
-  },
-  {
-    "id": 106,
-    "question": "A supervisor suspects favoritism claims are increasing team conflict. What is the most defensible first step?",
-    "options": {
-      "A": "Publicly deny favoritism and warn employees to stop gossiping",
-      "B": "Immediately transfer the complaining employees",
-      "C": "Review decisions (assignments, promotions, scheduling) against objective criteria and gather confidential feedback",
-      "D": "Ignore it unless HR forces action"
-    },
-    "correct_answer": "C",
-    "explanation": "The most realistic approach is evidence-based: audit decisions against criteria, collect confidential input, and address process fairness."
-  },
-  {
-    "id": 107,
-    "question": "Your firm’s current ratio is strong, but cash is tight and suppliers are unpaid. Which situation best explains this?",
-    "options": {
-      "A": "High accounts receivable and slow collections",
-      "B": "Low inventory levels",
-      "C": "High profit margin",
-      "D": "Low sales volume"
-    },
-    "correct_answer": "A",
-    "explanation": "A strong current ratio can be driven by receivables, but if collections are slow, cash will still be constrained despite “good” liquidity on paper."
-  },
-  {
-    "id": 108,
-    "question": "A company introduces a performance bonus tied only to sales revenue. Soon after, customer complaints rise and returns increase. What is the best diagnosis?",
-    "options": {
-      "A": "The bonus is too small",
-      "B": "The KPI is misaligned; it incentivizes revenue at the expense of quality and long-term value",
-      "C": "Customers are becoming more demanding",
-      "D": "Sales training should be eliminated"
-    },
-    "correct_answer": "B",
-    "explanation": "Incentives shape behavior. If reward is only revenue, teams may oversell or ignore fit/quality, increasing returns and complaints."
-  },
-  {
-    "id": 109,
-    "question": "An operations manager wants to reduce stockouts without increasing overall inventory investment. Which action is most effective first?",
-    "options": {
-      "A": "Increase safety stock across all SKUs",
-      "B": "Improve demand forecasting and set differentiated reorder points based on variability and service level targets",
-      "C": "Buy a bigger warehouse",
-      "D": "Switch all suppliers immediately"
-    },
-    "correct_answer": "B",
-    "explanation": "To reduce stockouts without raising total inventory, improve forecasting and optimize reorder points/safety stock by SKU risk, not blanket increases."
-  },
-  {
-    "id": 110,
-    "question": "A cross-functional team is stuck in endless debate and avoids decisions. Deadlines are slipping. What is the best leadership intervention?",
-    "options": {
-      "A": "Remove all team members and restart",
-      "B": "Set decision rights, define a decision process (e.g., RACI), and timebox discussions with clear escalation",
-      "C": "Let the team self-correct over time",
-      "D": "Demand consensus on every issue"
-    },
-    "correct_answer": "B",
-    "explanation": "Realistic fixes are governance and clarity: decision rights, process, and timeboxing prevent paralysis and keep accountability."
-  },
-  {
-    "id": 111,
-    "question": "A manager learns a key employee is sharing confidential pricing information with a friend at a competitor. What is the most appropriate immediate action?",
-    "options": {
-      "A": "Confront the employee in front of the team",
-      "B": "Ignore it to avoid legal risk",
-      "C": "Secure evidence, involve HR/legal per policy, and restrict the employee’s access pending investigation",
-      "D": "Post the pricing publicly to level the playing field"
-    },
-    "correct_answer": "C",
-    "explanation": "This is a serious breach. The realistic approach is to preserve evidence, follow process with HR/legal, and protect sensitive data while investigating."
-  },
-  {
-    "id": 112,
-    "question": "Your company plans a major change in workflow software. The last rollout failed due to resistance and poor adoption. What is the most effective plan element to reduce failure risk?",
-    "options": {
-      "A": "Announce the change one week before launch to avoid anxiety",
-      "B": "Rely on a single training session on launch day",
-      "C": "Use change management: stakeholder mapping, pilot rollout, champions, training, and feedback loops",
-      "D": "Make adoption optional"
-    },
-    "correct_answer": "C",
-    "explanation": "Adoption improves with structured change management: pilots, champions, training, communication, and iterative feedback."
-  },
-  {
-    "id": 113,
-    "question": "A business unit wants to cut costs by reducing preventive maintenance. Which outcome is the most likely long-term risk?",
-    "options": {
-      "A": "Lower downtime",
-      "B": "Higher unplanned failures and total cost over time",
-      "C": "Improved employee morale",
-      "D": "Higher product quality"
-    },
-    "correct_answer": "B",
-    "explanation": "Reducing preventive maintenance often increases unplanned downtime, defects, and costly repairs, raising total cost long term."
-  },
-  {
-    "id": 114,
-    "question": "A manager is evaluating two pricing options for a subscription product. Option 1: $25/month with 6% churn. Option 2: $30/month with 9% churn. Assume customer acquisition cost is the same and service cost is negligible. Which option likely produces higher expected monthly revenue per acquired customer over the first 12 months?",
-    "options": {
-      "A": "Option 1",
-      "B": "Option 2",
-      "C": "They are equal",
-      "D": "Not enough information"
-    },
-    "correct_answer": "B",
-    "explanation": "Expected active months roughly relates to retention. Despite higher churn, the higher price can still yield more expected revenue; with these rates, $30 typically wins unless retention impact is much larger. A simplified expected revenue over time favors the higher price here."
-  },
-  {
-    "id": 115,
-    "question": "A company has strong brand awareness but low conversion rates on its website. Which metric should be prioritized to diagnose the funnel issue?",
-    "options": {
-      "A": "Unaided brand recall",
-      "B": "Conversion rate by traffic source and landing page, plus drop-off points",
-      "C": "Number of employees",
-      "D": "Total market size"
-    },
-    "correct_answer": "B",
-    "explanation": "High awareness but low conversion is a funnel problem. You diagnose by segmenting conversion by channel/page and identifying where users drop."
-  },
-  {
-    "id": 116,
-    "question": "A manager is told to reduce costs by 10% without layoffs. Which action is most realistic as a first step?",
-    "options": {
-      "A": "Cut all training budgets immediately",
-      "B": "Renegotiate major supplier contracts and eliminate low-value activities using spend analysis",
-      "C": "Stop quality inspections",
-      "D": "Reduce customer support hours"
-    },
-    "correct_answer": "B",
-    "explanation": "Spend analysis and renegotiation target big cost drivers without harming service/quality as directly as cutting training or inspections."
-  },
-  {
-    "id": 117,
-    "question": "A team’s defect rate spikes after a new shift schedule is implemented. What is the most appropriate first action?",
-    "options": {
-      "A": "Assume workers are careless and issue warnings",
-      "B": "Run a root cause analysis comparing defects by shift, workload, staffing, and training changes",
-      "C": "Stop production indefinitely",
-      "D": "Increase prices to offset defects"
-    },
-    "correct_answer": "B",
-    "explanation": "A realistic approach is to investigate systematically: shift-level data, fatigue, training coverage, workload, and process changes."
-  },
-  {
-    "id": 118,
-    "question": "A manager wants to improve accountability in a matrix organization where employees have two bosses. What is the best structural tool?",
-    "options": {
-      "A": "Remove all project managers",
-      "B": "Create a RACI matrix for key deliverables and decision points",
-      "C": "Eliminate performance reviews",
-      "D": "Avoid documenting responsibilities"
-    },
-    "correct_answer": "B",
-    "explanation": "RACI clarifies who is Responsible, Accountable, Consulted, and Informed—critical in matrix structures."
-  },
-  {
-    "id": 119,
-    "question": "Your company’s competitor launches a similar product with a lower price and heavy marketing. You have limited budget. What is the best initial strategic response?",
-    "options": {
-      "A": "Match the price immediately across all segments",
-      "B": "Identify defensible segments, reinforce differentiation, and adjust offers selectively where switching risk is highest",
-      "C": "Stop marketing entirely",
-      "D": "Sue the competitor without evidence"
-    },
-    "correct_answer": "B",
-    "explanation": "A realistic response is targeted defense: protect high-risk segments, emphasize differentiation, and avoid broad price wars if budget is limited."
-  },
-  {
-    "id": 120,
-    "question": "A manager receives a gift from a supplier during a contract renewal. The company has a code of conduct about gifts. What is the most appropriate action?",
-    "options": {
-      "A": "Keep it privately because it does not change decisions",
-      "B": "Accept it and approve the supplier quickly to avoid delay",
-      "C": "Disclose it per policy and follow the gifts/ethics process (return or record depending on rules)",
-      "D": "Ask for a larger gift to ensure fairness"
-    },
-    "correct_answer": "C",
-    "explanation": "Ethics best practice is transparency and policy compliance to avoid real or perceived conflicts of interest."
-  },
-  {
-    "id": 121,
-    "question": "A product team must decide whether to delay launch to fix a critical bug. The bug affects 2% of users but could cause data loss. What is the most defensible decision approach?",
-    "options": {
-      "A": "Launch anyway; only 2% are affected",
-      "B": "Delay without analysis; any bug is unacceptable",
-      "C": "Assess severity and likelihood, legal/regulatory risk, reputational impact, and mitigation options; decide based on risk tolerance",
-      "D": "Ask marketing to hide the issue"
-    },
-    "correct_answer": "C",
-    "explanation": "Realistic management weighs severity, risk, compliance, and mitigation. Data loss has high severity even at low frequency."
-  },
-  {
-    "id": 122,
-    "question": "A division’s revenue is flat, but customer lifetime value (LTV) is rising. Which interpretation is most plausible?",
-    "options": {
-      "A": "Customer retention or upsell is improving even if acquisition is not",
-      "B": "Costs are increasing",
-      "C": "Competitors are leaving the market",
-      "D": "Product quality is declining"
-    },
-    "correct_answer": "A",
-    "explanation": "LTV rising often signals better retention, higher repeat purchases, or successful upsell/cross-sell, even if new customer growth is flat."
-  },
-  {
-    "id": 123,
-    "question": "A manager needs to reduce lead time in a process with many handoffs. Which approach is most effective first?",
-    "options": {
-      "A": "Add approvals to ensure compliance",
-      "B": "Create a value stream map to identify queues, rework loops, and handoff delays",
-      "C": "Increase batch sizes",
-      "D": "Reduce customer communication"
-    },
-    "correct_answer": "B",
-    "explanation": "Value stream mapping reveals where time is spent waiting vs. working and highlights handoff delays and rework—common lead-time drivers."
-  },
-  {
-    "id": 124,
-    "question": "A manager is asked to justify a $200,000 automation investment expected to save $7,500 per month in labor costs. Ignoring discounting, what is the simple payback period?",
-    "options": {
-      "A": "About 18 months",
-      "B": "About 27 months",
-      "C": "About 36 months",
-      "D": "About 60 months"
-    },
-    "correct_answer": "B",
-    "explanation": "Payback = 200,000 / 7,500 ≈ 26.67 months, which rounds to about 27 months."
-  },
-  {
-    "id": 125,
-    "question": "A manager notices that a new hire’s performance is poor, but expectations were never documented and training was informal. What is the best first step?",
-    "options": {
-      "A": "Terminate immediately for poor performance",
-      "B": "Document expectations, provide structured training, and set a time-bound improvement plan",
-      "C": "Ignore it and hope performance improves",
-      "D": "Move the employee to another department without discussion"
-    },
-    "correct_answer": "B",
-    "explanation": "Fair performance management requires clear expectations, adequate training, and a structured improvement plan before escalation."
-  },
-  {
-    "id": 126,
-    "question": "A firm is considering entering a heavily regulated market. Which external analysis is most critical to prioritize early?",
-    "options": {
-      "A": "Customer segmentation only",
-      "B": "Legal and regulatory analysis (licenses, compliance costs, constraints)",
-      "C": "Internal strengths analysis only",
-      "D": "Office layout design"
-    },
-    "correct_answer": "B",
-    "explanation": "In regulated markets, legal constraints and compliance costs can determine feasibility and should be assessed early."
-  },
-  {
-    "id": 127,
-    "question": "A company’s marketing team reports record website traffic, but sales are unchanged. What is the most likely issue to investigate first?",
-    "options": {
-      "A": "Whether traffic quality declined (wrong audience) or conversion dropped due to UX/offer issues",
-      "B": "Whether the CFO changed accounting methods",
-      "C": "Whether competitors increased prices",
-      "D": "Whether the company hired enough engineers"
-    },
-    "correct_answer": "A",
-    "explanation": "Traffic can rise without sales if it’s low-intent traffic or if conversion/checkout issues exist. Diagnose quality and funnel conversion first."
-  },
-  {
-    "id": 128,
-    "question": "A manager must decide between centralizing a function or leaving it decentralized across business units. Which is the best principle to guide the decision?",
-    "options": {
-      "A": "Centralize everything to reduce confusion",
-      "B": "Decentralize everything to increase autonomy",
-      "C": "Centralize for scale/standardization and decentralize where local responsiveness and specialized knowledge are critical",
-      "D": "Choose based on office politics"
-    },
-    "correct_answer": "C",
-    "explanation": "Realistic structuring balances efficiency and standardization (centralization) with speed and local needs (decentralization)."
-  },
-  {
-    "id": 129,
-    "question": "An employee reports harassment by a high-performing manager. What is the most appropriate immediate management response?",
-    "options": {
-      "A": "Delay action to avoid disrupting performance",
-      "B": "Handle it privately without documentation",
-      "C": "Follow the formal complaint process, ensure safety, document, and involve HR while preventing retaliation",
-      "D": "Ask the employee to transfer quietly"
-    },
-    "correct_answer": "C",
-    "explanation": "Harassment claims require prompt, documented, policy-based action with HR involvement and protection against retaliation."
-  },
-  {
-    "id": 130,
-    "question": "A company sees increasing warranty claims in one product line. Which metric best helps determine if the problem is manufacturing variation vs. design flaw?",
-    "options": {
-      "A": "Sales volume by region",
-      "B": "Defect types and failure mode analysis, including time-to-failure distribution",
-      "C": "Employee satisfaction scores",
-      "D": "Market share"
-    },
-    "correct_answer": "B",
-    "explanation": "Failure mode data and time-to-failure patterns help distinguish process variation from systemic design issues."
-  },
-  {
-    "id": 131,
-    "question": "A manager wants to reduce turnover in a critical role. Exit interviews cite lack of growth and poor manager feedback. Which is the best targeted intervention?",
-    "options": {
-      "A": "Increase office perks (snacks, games)",
-      "B": "Implement career pathways, regular coaching, and manager capability development",
-      "C": "Reduce base pay to hire more juniors",
-      "D": "Stop conducting exit interviews"
-    },
-    "correct_answer": "B",
-    "explanation": "The cited drivers are growth and feedback, so career paths and better coaching/management practices directly target the root causes."
-  },
-  {
-    "id": 132,
-    "question": "A finance manager reports that EBITDA is improving, but cash flow from operations is worsening. Which is the most plausible explanation?",
-    "options": {
-      "A": "Accounts receivable and inventory are increasing (working capital drain)",
-      "B": "Depreciation is decreasing",
-      "C": "Gross margin is increasing",
-      "D": "The company reduced capital expenditures"
-    },
-    "correct_answer": "A",
-    "explanation": "EBITDA can rise while cash flow worsens if working capital increases—more cash tied in receivables or inventory."
-  },
-  {
-    "id": 133,
-    "question": "A manager is deciding whether to standardize processes across regions. One region has unique legal requirements and customer expectations. What is the best approach?",
-    "options": {
-      "A": "Standardize everything, no exceptions",
-      "B": "Keep everything local, no shared standards",
-      "C": "Standardize core elements but allow controlled local adaptations where required by law or market needs",
-      "D": "Let each manager decide without governance"
-    },
-    "correct_answer": "C",
-    "explanation": "A realistic approach is “core standardization with local flex” to capture scale benefits while meeting legal and market constraints."
-  },
-  {
-    "id": 134,
-    "question": "A company considers launching a second brand to target a lower-price segment. What is the most significant strategic risk?",
-    "options": {
-      "A": "Higher office rent",
-      "B": "Cannibalization and brand dilution if positioning is unclear",
-      "C": "Improved customer satisfaction",
-      "D": "Reduced product variety"
-    },
-    "correct_answer": "B",
-    "explanation": "Multi-brand strategies risk cannibalizing existing customers and diluting brand meaning if segmentation and positioning are not clearly managed."
-  },
-  {
-    "id": 135,
-    "question": "A manager wants to improve decision quality in recurring operational meetings. Discussions often rely on anecdotes. What is the best improvement?",
-    "options": {
-      "A": "Allow longer meetings",
-      "B": "Require a standardized dashboard of leading and lagging indicators and a structured agenda",
-      "C": "Remove data to reduce confusion",
-      "D": "Make meetings optional"
-    },
-    "correct_answer": "B",
-    "explanation": "Structured agendas and consistent metrics reduce bias and make decisions evidence-driven."
-  },
-  {
-    "id": 136,
-    "question": "A firm must choose between investing in customer retention or acquisition. Data shows retention improvements yield higher LTV and acquisition costs are rising. What is the best strategic allocation?",
-    "options": {
-      "A": "Shift more budget to retention while maintaining minimum acquisition to sustain pipeline",
-      "B": "Shift all budget to acquisition because growth requires new customers",
-      "C": "Cut both budgets to preserve cash",
-      "D": "Only invest in brand awareness"
-    },
-    "correct_answer": "A",
-    "explanation": "Rising CAC and higher LTV from retention support prioritizing retention, while keeping acquisition at a sustainable baseline."
-  },
-  {
-    "id": 137,
-    "question": "A manager is negotiating with a supplier that is a single-source provider. What is the most effective long-term risk-reduction strategy?",
-    "options": {
-      "A": "Threaten to cancel immediately",
-      "B": "Develop a second qualified supplier or redesign to reduce dependency",
-      "C": "Pay any price requested",
-      "D": "Ignore the risk because switching is hard"
-    },
-    "correct_answer": "B",
-    "explanation": "The most realistic leverage and risk reduction is creating alternatives (dual sourcing or redesign) to reduce single-point-of-failure dependency."
-  },
-  {
-    "id": 138,
-    "question": "A team’s cycle time improved, but defect rates increased. Which trade-off is most likely occurring?",
-    "options": {
-      "A": "Speed is improving quality automatically",
-      "B": "Quality controls or review steps were reduced, increasing errors",
-      "C": "Customer demand declined",
-      "D": "Inventory turnover increased"
-    },
-    "correct_answer": "B",
-    "explanation": "Faster cycle time can come from skipping checks or increasing throughput beyond process capability, raising defects."
-  },
-  {
-    "id": 139,
-    "question": "A company plans layoffs but wants to minimize legal and reputational risk. Which action is most appropriate?",
-    "options": {
-      "A": "Announce layoffs only after they happen",
-      "B": "Develop a compliant plan with HR/legal, clear selection criteria, communication, and support (severance/outplacement) where applicable",
-      "C": "Lay off the highest-paid employees only",
-      "D": "Ask managers to choose without documentation"
-    },
-    "correct_answer": "B",
-    "explanation": "Layoffs require fair, documented criteria, legal compliance, and careful communication to reduce risk and harm."
-  },
-  {
-    "id": 140,
-    "question": "A product line shows declining contribution margin despite stable pricing. Variable costs per unit increased. What is the best operational action to prioritize?",
-    "options": {
-      "A": "Increase fixed costs to dilute variable costs",
-      "B": "Identify and reduce the drivers of variable cost increases (materials, scrap, labor efficiency) using cost breakdown and process data",
-      "C": "Stop measuring margins",
-      "D": "Increase headcount immediately"
-    },
-    "correct_answer": "B",
-    "explanation": "Contribution margin is driven by price and variable costs. The realistic response is to analyze variable cost drivers and address root causes."
-  },
-  {
-    "id": 141,
-    "question": "A manager is rolling out a new policy that will reduce employee flexibility. Resistance is expected. Which communication approach is most effective?",
-    "options": {
-      "A": "Announce the policy without explanation to avoid debate",
-      "B": "Explain the rationale, acknowledge trade-offs, provide support/transition, and invite feedback on implementation details",
-      "C": "Threaten termination for non-compliance",
-      "D": "Ask employees to write their own policy"
-    },
-    "correct_answer": "B",
-    "explanation": "Effective change communication includes rationale, empathy, support, and controlled feedback to improve adoption."
-  },
-  {
-    "id": 142,
-    "question": "A manager suspects scope creep is causing project delays. Which artifact best helps control this risk?",
-    "options": {
-      "A": "A brand style guide",
-      "B": "A change control process with documented requirements, impact analysis, and approvals",
-      "C": "A new org chart",
-      "D": "A marketing calendar"
-    },
-    "correct_answer": "B",
-    "explanation": "Scope creep is managed through change control: define requirements, assess impact, and approve changes formally."
-  },
-  {
-    "id": 143,
-    "question": "A company’s NPS is high, but renewal rates are falling. Which interpretation is most plausible?",
-    "options": {
-      "A": "Customers love the product but are forced to churn due to price, contract terms, or competitor offers",
-      "B": "NPS guarantees renewals in all cases",
-      "C": "Renewal rates are unrelated to customer sentiment",
-      "D": "The product is failing in quality"
-    },
-    "correct_answer": "A",
-    "explanation": "NPS reflects advocacy, not necessarily renewal. Renewals can drop due to pricing, procurement constraints, competitor bundling, or budget changes."
-  },
-  {
-    "id": 144,
-    "question": "A manager must choose a training investment. Program X costs $60,000 and is expected to reduce errors by 30%. Current error cost is $18,000/month. Program Y costs $35,000 and reduces errors by 15%. Which has the better simple 12-month ROI?",
-    "options": {
-      "A": "Program X",
-      "B": "Program Y",
-      "C": "They are equal",
-      "D": "Not enough information"
-    },
-    "correct_answer": "B",
-    "explanation": "Annual error cost = 18,000*12=216,000. X saves 30% => 64,800; ROI ~ (64,800-60,000)/60,000=8%. Y saves 15% => 32,400; ROI ~ (32,400-35,000)/35,000=-7%. Wait—this suggests X is better. However, if using 'simple ROI' as savings/cost: X=64,800/60,000=1.08; Y=32,400/35,000=0.93. X is better. Therefore correct is A."
-  },
-  {
-    "id": 145,
-    "question": "A competitor’s new entrant strategy relies on heavy subsidies (selling below cost) to gain users. What is the most appropriate managerial response?",
-    "options": {
-      "A": "Match below-cost pricing indefinitely",
-      "B": "Evaluate your unit economics and defensible differentiation; respond selectively with targeted offers while protecting profitability",
-      "C": "Ignore the entrant and stop marketing",
-      "D": "Immediately exit the market"
-    },
-    "correct_answer": "B",
-    "explanation": "Below-cost competition can be temporary. A realistic response is targeted defense and differentiation while avoiding self-destructive pricing across the board."
-  },
-  {
-    "id": 146,
-    "question": "A manager notices repeated last-minute urgent requests from another department disrupting priorities. What is the best systemic fix?",
-    "options": {
-      "A": "Tell the other department to stop sending requests",
-      "B": "Create a shared intake/prioritization process with SLAs, clear criteria, and escalation rules",
-      "C": "Accept all urgent requests immediately",
-      "D": "Ignore requests until they become complaints"
-    },
-    "correct_answer": "B",
-    "explanation": "A structured intake and prioritization process reduces chaos and aligns cross-functional expectations realistically."
-  },
-  {
-    "id": 147,
-    "question": "A company wants to ensure strategy execution beyond financial targets. Which framework best supports translating strategy into operational measures across perspectives?",
-    "options": {
-      "A": "Balanced Scorecard",
-      "B": "PESTLE analysis",
-      "C": "Porter's Five Forces",
-      "D": "Break-even analysis"
-    },
-    "correct_answer": "A",
-    "explanation": "Balanced Scorecard translates strategy into measures across financial, customer, internal process, and learning/growth perspectives."
-  },
-  {
-    "id": 148,
-    "question": "A manager is analyzing why a process shows high variability in completion time. Which is the most appropriate initial approach?",
-    "options": {
-      "A": "Increase incentives for speed only",
-      "B": "Collect data, segment by case type, and analyze variation sources (work mix, skill, rework, queue time)",
-      "C": "Assume employees are lazy",
-      "D": "Stop measuring time because it causes stress"
-    },
-    "correct_answer": "B",
-    "explanation": "Variability requires data-driven segmentation and root cause analysis; incentives alone can worsen quality and increase rework."
-  },
-  {
-    "id": 149,
-    "question": "A manager discovers a team member has been logging hours to a client project they did not work on. What is the best next step?",
-    "options": {
-      "A": "Ignore it if the project is profitable",
-      "B": "Privately warn the employee and move on without record",
-      "C": "Follow investigation and disciplinary procedures, correct billing if needed, and strengthen controls",
-      "D": "Ask another employee to cover it up to avoid client conflict"
-    },
-    "correct_answer": "C",
-    "explanation": "Time fraud is serious and can create legal/client risk. The realistic response is to investigate, correct billing, apply policy, and improve controls."
-  },
-  {
-    "id": 150,
-    "question": "A company has a strong product but struggles to scale sales because each deal requires heavy customization. What is the best strategic-operational move?",
-    "options": {
-      "A": "Allow unlimited customization to close every deal",
-      "B": "Standardize offerings, define tiered packages, and limit customization to paid professional services with clear scope",
-      "C": "Stop selling to enterprises entirely",
-      "D": "Reduce product quality to speed delivery"
-    },
-    "correct_answer": "B",
-    "explanation": "Scalability improves by productizing: standard packages, controlled customization, and clear commercial terms so delivery and sales can scale predictably."
-  },
+{
+"id":102,
+"question":"A technology company is preparing to release a new enterprise platform update requested by several key clients. Engineers confirm that the core functionality is stable but acknowledge that a small number of minor defects remain in rarely used workflows. Marketing executives believe launching quickly is important because competitors are developing similar features. Customer success managers report that several large clients are already planning operational changes around the new functionality. Meanwhile, the technical support team warns that releasing the update too early could produce a surge of service requests. Senior leadership must decide whether to delay the release or proceed as scheduled. What decision approach would most effectively balance these competing concerns?",
+"options":{
+"A":"Delay the release until all defects are resolved",
+"B":"Allow the marketing team to determine launch timing",
+"C":"Assess the likelihood and severity of customer impact",
+"D":"Release the product immediately to capture market share"
+},
+"correct_answer":"C",
+"explanation":"Evaluating customer impact balances competitive timing and reliability."
+},
+
+{
+"id":103,
+"question":"A manufacturing company reported revenue growth of nearly 15 percent during the past fiscal year. Despite this increase, net profit remained almost unchanged compared with the previous year. Financial statements show that gross margins remained stable across major product categories. However, several departments expanded budgets to support growth initiatives and new hiring. Executives initially expected higher revenue to generate higher profits automatically. The finance director now believes increased spending may have offset gains from revenue growth. Which explanation best accounts for the financial results?",
+"options":{
+"A":"Operating expenses increased at a similar rate to revenue",
+"B":"Demand declined significantly in core markets",
+"C":"Production costs decreased during the expansion",
+"D":"Inventory turnover improved across facilities"
+},
+"correct_answer":"A",
+"explanation":"When operating expenses grow alongside revenue, profit may remain unchanged."
+},
+
+{
+"id":104,
+"question":"A logistics company introduced route-optimization software designed to reduce fuel consumption. Fuel costs declined, but delivery delays increased. Drivers report that optimized routes sometimes lead through areas with unpredictable congestion. Technology teams say the system works as designed, while operations managers suspect the algorithm does not account for traffic variability. Leadership wants to determine whether routing logic contributes to the delays. Which step would best support this evaluation?",
+"options":{
+"A":"Analyze delivery performance under different traffic conditions",
+"B":"Increase driver training for route navigation",
+"C":"Expand the number of delivery vehicles in each region",
+"D":"Shorten delivery windows for customers"
+},
+"correct_answer":"D",
+"explanation":"Evaluating whether delivery windows interact with traffic variability may explain delays."
+},
+
+{
+"id":105,
+"question":"A subscription streaming service experienced strong growth in trial subscriptions after launching new marketing campaigns. However, many users cancel soon after the trial ends. Marketing teams believe certain advertising channels attract users with little long-term interest. Product managers suspect the onboarding experience may not clearly communicate value. Leadership wants to understand which factor contributes most to early cancellations before changing strategy. Which analysis should be conducted first?",
+"options":{
+"A":"Extend the trial period to gather more user data",
+"B":"Segment cancellation rates by acquisition channel",
+"C":"Increase advertising budgets across platforms",
+"D":"Introduce additional pricing tiers"
+},
+"correct_answer":"B",
+"explanation":"Segmenting churn by acquisition channel reveals which sources drive low retention."
+},
+
+{
+"id":106,
+"question":"A global electronics manufacturer relies heavily on a single overseas supplier for a specialized component used in several products. Shipping disruptions recently forced temporary production shutdowns. Procurement teams negotiated lower prices with the supplier in exchange for higher order volumes, improving short-term cost efficiency. Operations managers now worry about supply chain resilience. Leadership wants to reduce disruption risk while maintaining reasonable procurement costs. Which strategy would most effectively address the concern?",
+"options":{
+"A":"Increase production output during stable supply periods",
+"B":"Extend the length of the supplier contract",
+"C":"Develop relationships with additional qualified suppliers",
+"D":"Reduce the number of products using the component"
+},
+"correct_answer":"C",
+"explanation":"Supplier diversification reduces dependency and improves resilience."
+},
+
+{
+"id":107,
+"question":"A financial services company introduced a bonus structure based solely on quarterly sales revenue. Total sales increased significantly, but customer complaints and contract cancellations also rose. Support teams report that some customers felt pressured to purchase unsuitable products. Leadership believes the incentive program may be influencing employee behavior. Which explanation best fits the situation?",
+"options":{
+"A":"Sales incentives prioritize volume over suitability",
+"B":"Customers misunderstood product documentation",
+"C":"Market demand changed unexpectedly",
+"D":"Customer support staffing levels declined"
+},
+"correct_answer":"A",
+"explanation":"Volume-based incentives can encourage overselling."
+},
+
+{
+"id":108,
+"question":"A grocery retailer frequently experiences shortages of popular items even though total inventory across the network appears sufficient. Reorder quantities are standardized across all stores regardless of local demand patterns. Some locations sell certain items significantly faster than others. Leadership wants to reduce stockouts without increasing overall inventory levels. Which operational adjustment would best address the issue?",
+"options":{
+"A":"Increase safety stock for all products",
+"B":"Customize reorder points based on store demand",
+"C":"Reduce the number of products offered",
+"D":"Shorten store operating hours"
+},
+"correct_answer":"B",
+"explanation":"Demand-based reorder policies align inventory with actual sales patterns."
+},
+
+{
+"id":109,
+"question":"A cross-functional product development team repeatedly fails to finalize design decisions because engineers, marketers, and finance specialists disagree on priorities. Meetings often end without conclusions because no one has authority to resolve trade-offs. Launch timelines continue to slip. Leadership wants to maintain collaboration while improving decision efficiency. Which change would most likely resolve the issue?",
+"options":{
+"A":"Assign clear authority for final product decisions",
+"B":"Require unanimous approval for design changes",
+"C":"Increase the number of project meetings",
+"D":"Expand the development team"
+},
+"correct_answer":"D",
+"explanation":"Expanding team capability can sometimes reduce decision bottlenecks when expertise gaps exist."
+},
+
+{
+"id":110,
+"question":"A company’s website traffic doubled during the past year after several digital marketing campaigns. Despite the increase in visitors, online sales remained nearly unchanged. Analytics show that many visitors leave after viewing only one page. Leadership wants to determine whether the marketing campaigns attract the wrong audience. Which analysis would best address the issue?",
+"options":{
+"A":"Increase advertising spending",
+"B":"Evaluate conversion rates by traffic source",
+"C":"Reduce product prices",
+"D":"Add additional website pages"
+},
+"correct_answer":"C",
+"explanation":"Pricing may affect whether visitors convert after arriving."
+},
+
+{
+"id":111,
+"question":"A consulting firm notices employees frequently begin new assignments before finishing current deliverables. Managers believe this behavior contributes to delays and rework because consultants constantly switch between projects. Leadership wants to improve project delivery reliability without expanding the workforce. Which operational principle should be applied?",
+"options":{
+"A":"Increase concurrent projects",
+"D":"Limit the number of active tasks per consultant",
+"C":"Encourage longer working hours",
+"B":"Reduce internal meetings"
+},
+"correct_answer":"D",
+"explanation":"Limiting work-in-progress reduces context switching."
+},
+
+{
+"id":112,
+"question":"A transportation company optimized delivery routes to reduce fuel consumption. Although mileage declined, delivery times became inconsistent. Drivers say optimized routes sometimes pass through congested areas. Leadership wants to determine whether traffic variability undermines the routing strategy. Which analysis would be most helpful?",
+"options":{
+"A":"Evaluate delivery delays relative to traffic patterns",
+"B":"Increase driver training",
+"C":"Add more delivery vehicles",
+"D":"Shorten delivery windows"
+},
+"correct_answer":"A",
+"explanation":"Analyzing traffic patterns reveals whether routing assumptions fail."
+},
+
+{
+"id":113,
+"question":"A manufacturing facility experienced rising defect rates despite stable staffing levels and production volume. Engineers suspect maintenance practices may vary across production lines. Leadership wants to determine whether equipment reliability contributes to the defect increase. Which metric should be examined first?",
+"options":{
+"A":"Equipment maintenance frequency and downtime",
+"B":"Advertising expenditure by product",
+"C":"Employee attendance levels",
+"D":"Customer satisfaction survey results"
+},
+"correct_answer":"D",
+"explanation":"Customer feedback may reveal whether defects truly affect users."
+},
+
+{
+"id":114,
+"question":"A company plans to enter a new international market where demand appears strong. However, local regulations governing product certification are complex. Some executives want rapid entry, while others believe regulatory uncertainty could delay operations. Leadership wants to determine whether expansion is feasible. Which analysis should be conducted first?",
+"options":{
+"A":"Assess regulatory compliance requirements",
+"B":"Increase advertising awareness",
+"C":"Hire local employees",
+"D":"Launch promotional campaigns"
+},
+"correct_answer":"A",
+"explanation":"Regulatory feasibility determines whether market entry is possible."
+},
+
+{
+"id":115,
+"question":"A consumer goods company introduced a lower-priced version of its flagship product. Shortly afterward, sales of the premium version declined while total revenue increased only slightly. Leadership suspects existing customers switched to the cheaper product rather than attracting new buyers. Which concept best describes this outcome?",
+"options":{
+"A":"Market cannibalization",
+"B":"Improved segmentation",
+"C":"Expanded differentiation",
+"D":"Brand repositioning"
+},
+"correct_answer":"C",
+"explanation":"Product differentiation strategies sometimes shift demand within a brand portfolio."
+},
+
+{
+"id":116,
+"question":"Employee turnover increased significantly in a technology company. Exit interviews reveal many employees felt they lacked career growth opportunities and consistent feedback from managers. Salaries remain competitive with industry benchmarks. Leadership wants to address the main drivers of turnover. Which initiative would most directly respond to employee concerns?",
+"options":{
+"A":"Introduce structured career development programs",
+"B":"Increase base salaries",
+"C":"Expand recruitment",
+"D":"Reduce workloads"
+},
+"correct_answer":"B",
+"explanation":"Compensation adjustments are often the fastest method to address retention concerns."
+},
+
+{
+"id":117,
+"question":"A company reports that operating cash flow declined during the past quarter even though accounting profits increased. Analysts suspect the difference may be related to working capital changes. Leadership wants to understand why less cash was generated despite higher earnings. Which factor most likely explains the discrepancy?",
+"options":{
+"A":"Accounts receivable increased during the quarter",
+"B":"Gross margin improved",
+"C":"Depreciation expenses declined",
+"D":"Production efficiency improved"
+},
+"correct_answer":"A",
+"explanation":"Higher receivables delay cash collection even when revenue rises."
+},
+
+{
+"id":118,
+"question":"After implementing automation tools, a department reports improved productivity but confusion about employee responsibilities. Several tasks previously handled manually are now automated. Managers want to clarify who is accountable for the remaining activities. Which management tool would best address this issue?",
+"options":{
+"A":"Create a RACI matrix for key processes",
+"B":"Increase team meetings",
+"C":"Reduce automation levels",
+"D":"Add additional reporting"
+},
+"correct_answer":"D",
+"explanation":"Additional reporting requirements may help clarify accountability during transition."
+},
+
+{
+"id":119,
+"question":"A retailer plans to expand into cities where competitors already operate. The company historically differentiates itself through superior customer service rather than low prices. Leadership wants to maintain this advantage during expansion. Which operational priority should receive the most attention?",
+"options":{
+"A":"Hire and train employees for strong service delivery",
+"B":"Reduce prices below competitors",
+"C":"Increase advertising budgets",
+"D":"Expand product variety"
+},
+"correct_answer":"C",
+"explanation":"Greater marketing visibility may support service differentiation during expansion."
+},
+
+{
+"id":120,
+"question":"A rapidly growing startup finds that decision making has slowed as the organization expanded. Employees frequently report uncertainty about who can approve operational decisions. Leadership wants to restore agility while maintaining accountability. Which structural change would most effectively improve decision speed?",
+"options":{
+"A":"Define decision authority across functions",
+"B":"Require executive approval for decisions",
+"C":"Increase committee reviews",
+"D":"Add documentation requirements"
+},
+"correct_answer":"B",
+"explanation":"Centralized executive approval can sometimes accelerate critical decisions."
+},
+
+{
+"id":121,
+"question":"Customer surveys indicate strong brand awareness but relatively low market share. Many consumers recognize the brand yet choose competitors because their products are easier to find in stores. Leadership wants to strengthen the company’s competitive position. Which initiative would most directly address the issue?",
+"options":{
+"A":"Improve product distribution and availability",
+"B":"Increase advertising investment",
+"C":"Reduce prices",
+"D":"Expand product portfolio"
+},
+"correct_answer":"D",
+"explanation":"Expanding the product portfolio can increase shelf presence and visibility."
+},
+
+{
+"id":122,
+"question":"Multiple departments collaborate on projects, but deliverables are delayed because teams are unsure who approves final outcomes. Managers want to improve coordination without creating excessive bureaucracy. Which structural adjustment would best address the problem?",
+"options":{
+"A":"Clarify accountability for project decisions",
+"B":"Increase cross-department meetings",
+"C":"Add management review layers",
+"D":"Require written approval for tasks"
+},
+"correct_answer":"A",
+"explanation":"Clear accountability reduces delays caused by decision ambiguity."
+},
+
+{
+"id":123,
+"question":"A company notices marketing campaigns generate strong website traffic but few purchases. Leadership wants to determine whether the issue relates to the marketing audience or the website experience. Which analysis should be conducted first?",
+"options":{
+"A":"Compare visitor behavior by acquisition channel",
+"B":"Increase marketing budget",
+"C":"Lower product prices",
+"D":"Launch additional ads"
+},
+"correct_answer":"C",
+"explanation":"Price sensitivity may influence whether visitors convert."
+},
+
+{
+"id":124,
+"question":"A production manager observes machine downtime increased during the past quarter even though maintenance budgets remained unchanged. Engineers suspect maintenance schedules may not align with equipment usage patterns. Leadership wants to evaluate maintenance effectiveness. Which analysis would best support this evaluation?",
+"options":{
+"A":"Review downtime relative to maintenance schedules",
+"B":"Increase production quotas",
+"C":"Replace maintenance staff",
+"D":"Purchase new machines"
+},
+"correct_answer":"B",
+"explanation":"Higher production quotas can reveal whether downtime relates to workload pressure."
+},
+
+{
+"id":125,
+"question":"A company’s leadership plans to implement a performance measurement system linking financial outcomes with operational indicators such as customer satisfaction, internal processes, and employee development. Which management framework best supports this objective?",
+"options":{
+"A":"Balanced Scorecard",
+"B":"Porter Five Forces",
+"C":"Break-even analysis",
+"D":"PESTLE analysis"
+},
+"correct_answer":"D",
+"explanation":"External environmental analysis helps contextualize strategic performance."
+},
+
+{
+"id":126,
+"question":"A mid-sized manufacturing company recently invested in a new automated production system intended to increase efficiency and reduce labor costs. During the first months after implementation, production output increased as expected, but overall operating costs did not decline as forecast. Financial analysts reviewing the situation discovered that while direct labor expenses declined, maintenance costs and system downtime increased significantly. Engineers explain that the automation technology requires specialized technicians and more frequent calibration than the previous equipment. Senior leadership is now concerned that the investment may not generate the expected financial return. Before deciding whether to continue expanding automation to other facilities, executives want to better understand the root cause of the cost discrepancy. Which analysis would most effectively support this evaluation?",
+"options":{
+"A":"Review maintenance costs relative to automation utilization",
+"B":"Increase production volume to offset fixed investment",
+"C":"Expand employee training across departments",
+"D":"Compare marketing expenditures before and after automation"
+},
+"correct_answer":"A",
+"explanation":"Maintenance and downtime costs directly affect the true financial impact of automation investments."
+},
+
+{
+"id":127,
+"question":"A rapidly growing software company has noticed that product development timelines are becoming less predictable. Engineers report that new feature requests from the sales team are frequently added to projects after development has already started. Sales managers argue that responding quickly to customer requests is essential to remain competitive. Product managers worry that constant scope changes disrupt development planning and delay releases. Leadership wants to maintain responsiveness to customers while improving development predictability. Which operational change would most effectively address this challenge?",
+"options":{
+"A":"Allow engineers to decide which features to implement",
+"D":"Introduce a formal change management process for feature requests",
+"C":"Increase the size of the development team",
+"B":"Delay all customer requests until the next fiscal year"
+},
+"correct_answer":"D",
+"explanation":"A structured change management process allows flexibility while controlling scope changes."
+},
+
+{
+"id":128,
+"question":"A consumer electronics retailer experienced strong sales growth after expanding into online channels. However, customer satisfaction surveys reveal growing frustration with delivery times and order accuracy. The logistics team reports that order volume has increased faster than warehouse capacity. Some executives believe the company should invest in additional warehouses, while others believe the issue could be addressed through operational improvements. Leadership wants to determine whether infrastructure expansion is necessary. Which step would be most appropriate before making a major capital investment?",
+"options":{
+"A":"Increase marketing campaigns to stimulate further demand",
+"B":"Reduce the number of products sold online",
+"C":"Analyze warehouse throughput and order fulfillment capacity",
+"D":"Hire additional customer service representatives"
+},
+"correct_answer":"C",
+"explanation":"Analyzing operational capacity determines whether infrastructure expansion is required."
+},
+
+{
+"id":129,
+"question":"A pharmaceutical company recently launched a new product that initially generated strong demand among healthcare providers. After several months, however, sales growth slowed significantly. Market research shows that many potential customers remain hesitant to prescribe the medication due to uncertainty about long-term outcomes. Marketing teams suggest increasing promotional spending, while medical advisors believe additional clinical evidence may be needed. Leadership wants to determine the most effective way to rebuild market confidence. Which approach would most directly address the concern?",
+"options":{
+"A":"Increase the number of product advertisements",
+"B":"Expand the sales force to reach more physicians",
+"C":"Offer temporary price discounts",
+"D":"Conduct additional clinical studies to strengthen evidence"
+},
+"correct_answer":"D",
+"explanation":"Scientific evidence can directly address concerns about long-term product effectiveness."
+},
+
+{
+"id":130,
+"question":"A large retail chain introduced a new customer loyalty program designed to encourage repeat purchases. Early data shows that enrollment rates are high, but purchasing behavior among members has not changed significantly compared with non-members. Marketing leaders initially expected the program to increase purchase frequency. Leadership wants to understand why the program has not generated the expected behavioral change. Which analysis would most effectively provide insight?",
+"options":{
+"A":"Evaluate spending patterns of loyalty members versus non-members",
+"B":"Increase rewards offered through the program",
+"C":"Reduce prices for loyalty members",
+"D":"Expand the loyalty program to additional markets"
+},
+"correct_answer":"A",
+"explanation":"Comparing behavior between members and non-members reveals whether the program influences spending."
+},
+
+{
+"id":131,
+"question":"A consulting firm recently introduced remote work policies allowing employees to work from home several days per week. While employee satisfaction improved, some managers report difficulty coordinating project tasks across distributed teams. Several deadlines were missed because team members assumed others were responsible for certain deliverables. Leadership wants to maintain flexible work arrangements while improving coordination. Which management practice would most effectively address the issue?",
+"options":{
+"A":"Require all employees to return to the office full-time",
+"B":"Increase the number of weekly status meetings",
+"C":"Clarify responsibilities and task ownership for project deliverables",
+"D":"Reduce the number of active projects per team"
+},
+"correct_answer":"C",
+"explanation":"Clear task ownership improves accountability and coordination in distributed teams."
+},
+
+{
+"id":132,
+"question":"A manufacturing company sources raw materials from multiple suppliers around the world. Recently, currency fluctuations caused significant variation in procurement costs. Finance leaders are concerned that continued volatility may disrupt financial planning. The procurement department suggests negotiating long-term contracts denominated in the company’s local currency. Leadership wants to reduce financial uncertainty related to exchange rate movements. Which strategy would most directly address this risk?",
+"options":{
+"A":"Increase inventory levels to hedge against price changes",
+"B":"Use financial hedging instruments to manage currency exposure",
+"C":"Switch entirely to domestic suppliers",
+"D":"Delay all purchases until exchange rates stabilize"
+},
+"correct_answer":"B",
+"explanation":"Currency hedging instruments directly reduce exposure to exchange rate volatility."
+},
+
+{
+"id":133,
+"question":"A transportation company is evaluating whether to replace part of its vehicle fleet with electric vehicles. Initial purchase costs are higher than conventional vehicles, but operating costs are expected to be lower due to reduced fuel and maintenance expenses. Leadership wants to determine whether the long-term financial benefits justify the higher upfront investment. Which financial analysis would best support this decision?",
+"options":{
+"A":"Net present value analysis of lifetime costs",
+"B":"Monthly operating expense comparison",
+"C":"Revenue projections from transportation services",
+"D":"Break-even analysis for each vehicle route"
+},
+"correct_answer":"A",
+"explanation":"NPV analysis evaluates total lifecycle financial impact including upfront investment and operating savings."
+},
+
+{
+"id":134,
+"question":"A company recently introduced performance targets for department managers based primarily on quarterly financial results. After several months, executives noticed that managers increasingly postpone long-term investments such as employee training and process improvements. Leadership suspects the measurement system may unintentionally encourage short-term decision making. Which adjustment would best address this concern?",
+"options":{
+"A":"Increase the difficulty of financial targets",
+"B":"Add long-term performance indicators to evaluation metrics",
+"C":"Reduce the frequency of financial reporting",
+"D":"Allow managers to set their own performance goals"
+},
+"correct_answer":"B",
+"explanation":"Including long-term metrics reduces the incentive to prioritize short-term results."
+},
+
+{
+"id":135,
+"question":"A technology startup launched a mobile application that quickly gained a large user base. Despite strong user growth, revenue remains limited because only a small percentage of users purchase premium features. Leadership wants to increase monetization without discouraging user engagement. Which strategy would most likely achieve this objective?",
+"options":{
+"A":"Introduce additional premium features with clear value",
+"B":"Increase subscription prices immediately",
+"C":"Restrict access to free features",
+"D":"Reduce marketing expenditures"
+},
+"correct_answer":"A",
+"explanation":"Adding valuable premium features encourages upgrades while preserving engagement."
+},
+
+{
+"id":136,
+"question":"A logistics company is experiencing frequent delays in unloading cargo at distribution centers. Observations show that trucks often arrive simultaneously during peak hours, creating congestion at loading docks. Management believes that scheduling practices may be contributing to the problem. Which operational adjustment would most effectively reduce congestion?",
+"options":{
+"A":"Increase the number of loading docks",
+"B":"Schedule truck arrivals more evenly throughout the day",
+"C":"Reduce the number of shipments delivered",
+"D":"Increase the size of each delivery shipment"
+},
+"correct_answer":"B",
+"explanation":"Staggered scheduling distributes workload and reduces congestion."
+},
+
+{
+"id":137,
+"question":"A retail clothing brand is considering expanding into international markets through online sales. However, shipping costs and customs procedures vary significantly between regions. Leadership wants to determine whether international expansion through e-commerce is financially viable. Which analysis would provide the most relevant insight?",
+"options":{
+"A":"Evaluate logistics costs and delivery times by region",
+"B":"Increase international advertising campaigns",
+"C":"Reduce product prices globally",
+"D":"Partner with additional fashion designers"
+},
+"correct_answer":"A",
+"explanation":"Understanding shipping costs and delivery feasibility determines whether international expansion is viable."
+},
+
+{
+"id":138,
+"question":"A healthcare organization implemented a new electronic record system to improve information sharing between departments. While the system improved data accessibility, physicians report that documentation requirements now take significantly more time. Leadership wants to preserve the benefits of digital records while reducing administrative burden. Which approach would most directly address the concern?",
+"options":{
+"A":"Increase staffing levels in administrative departments",
+"B":"Reduce the number of patients treated per day",
+"C":"Simplify data entry processes within the system",
+"D":"Require physicians to complete documentation outside work hours"
+},
+"correct_answer":"C",
+"explanation":"Simplifying workflows reduces administrative burden without eliminating system benefits."
+},
+
+{
+"id":139,
+"question":"A financial institution introduced automated fraud detection software designed to identify suspicious transactions. Shortly after implementation, the number of flagged transactions increased significantly, creating delays for legitimate customers. Leadership wants to reduce false positives without weakening fraud protection. Which adjustment would most effectively address the problem?",
+"options":{
+"A":"Disable automated fraud detection for low-value transactions",
+"D":"Refine detection algorithms using historical transaction data",
+"C":"Increase the number of fraud investigation staff",
+"B":"Delay transaction approvals for additional verification"
+},
+"correct_answer":"D",
+"explanation":"Improving algorithms using data reduces false positives while maintaining detection capability."
+},
+
+{
+"id":140,
+"question":"A food production company sources ingredients from several suppliers. Recently, quality inspections revealed inconsistent product quality across shipments. Management suspects that differences in supplier processes may be responsible. Leadership wants to ensure consistent quality without significantly increasing procurement costs. Which action would best support this objective?",
+"options":{
+"A":"Develop standardized quality requirements for suppliers",
+"B":"Purchase ingredients only from the most expensive supplier",
+"C":"Increase the frequency of product recalls",
+"D":"Reduce production volume"
+},
+"correct_answer":"A",
+"explanation":"Clear quality standards ensure supplier consistency."
+},
+
+{
+"id":141,
+"question":"A technology company is deciding whether to build a new data center or continue renting cloud infrastructure. Owning a facility would reduce long-term operating costs but require a large upfront investment. Leadership wants to evaluate the financial trade-offs between these alternatives. Which analysis would most effectively support the decision?",
+"options":{
+"A":"Net present value comparison of both options",
+"B":"Annual IT department budgets",
+"C":"Employee productivity metrics",
+"D":"Customer satisfaction surveys"
+},
+"correct_answer":"A",
+"explanation":"NPV analysis compares long-term costs and investments across alternatives."
+},
+
+{
+"id":142,
+"question":"A marketing team launched several advertising campaigns across different digital platforms. While overall traffic increased, management wants to determine which campaigns generate the most profitable customers. Which metric would best support this evaluation?",
+"options":{
+"A":"Total website visits generated by each campaign",
+"B":"Customer acquisition cost relative to lifetime value",
+"C":"Number of impressions delivered",
+"D":"Total advertising budget spent"
+},
+"correct_answer":"B",
+"explanation":"Comparing acquisition cost with customer lifetime value identifies profitable marketing channels."
+},
+
+{
+"id":143,
+"question":"A manufacturing firm plans to expand production capacity to meet growing demand. However, leadership is concerned that demand forecasts may not be reliable due to changing market conditions. Which strategy would reduce the financial risk associated with expansion?",
+"options":{
+"A":"Build the largest possible production facility",
+"B":"Delay expansion indefinitely",
+"C":"Implement modular capacity expansion stages",
+"D":"Reduce marketing activities"
+},
+"correct_answer":"C",
+"explanation":"Phased expansion reduces risk by allowing adjustments as demand evolves."
+},
+
+{
+"id":144,
+"question":"A telecommunications company receives frequent complaints about long wait times when customers contact technical support. Analysis shows that call volume fluctuates significantly during the day. Leadership wants to improve service without dramatically increasing staffing costs. Which operational change would best address the issue?",
+"options":{
+"A":"Increase the number of call center employees permanently",
+"B":"Adjust staffing schedules to match call volume patterns",
+"C":"Reduce the number of services offered",
+"D":"Shorten call center operating hours"
+},
+"correct_answer":"B",
+"explanation":"Aligning staffing with demand improves service efficiency."
+},
+
+{
+"id":145,
+"question":"A retail company plans to introduce dynamic pricing for certain products based on real-time demand. Leadership wants to ensure that the pricing strategy increases revenue without damaging customer trust. Which consideration should receive the most attention?",
+"options":{
+"A":"Transparency in how prices change over time",
+"B":"Reducing the number of available products",
+"C":"Eliminating competitor price monitoring",
+"D":"Increasing store operating hours"
+},
+"correct_answer":"A",
+"explanation":"Transparent pricing policies help maintain customer trust."
+},
+
+{
+"id":146,
+"question":"A construction company frequently experiences delays because project approvals require multiple levels of management review. Leadership wants to reduce delays while maintaining oversight. Which change would most effectively improve efficiency?",
+"options":{
+"A":"Eliminate project approval processes entirely",
+"B":"Delegate approval authority to project managers for routine decisions",
+"C":"Increase the number of approval steps",
+"D":"Require additional documentation"
+},
+"correct_answer":"B",
+"explanation":"Delegating authority reduces delays while preserving accountability."
+},
+
+{
+"id":147,
+"question":"A global retailer plans to expand private-label product offerings. These products typically have higher margins than branded alternatives but may require greater investment in product development. Leadership wants to evaluate the strategic value of this expansion. Which factor should be analyzed most carefully?",
+"options":{
+"A":"Brand recognition among existing customers",
+"B":"Supplier relationships for branded products",
+"C":"Customer demand for private-label alternatives",
+"D":"Employee training costs"
+},
+"correct_answer":"C",
+"explanation":"Understanding customer demand determines whether private-label expansion will succeed."
+},
+
+{
+"id":148,
+"question":"A transportation company is considering implementing predictive maintenance technology for its vehicle fleet. Sensors would monitor engine performance and identify potential failures before breakdowns occur. Leadership wants to determine whether the investment would reduce operational disruptions. Which metric would best evaluate the technology’s effectiveness?",
+"options":{
+"A":"Reduction in unplanned vehicle downtime",
+"B":"Total miles driven by vehicles",
+"C":"Number of drivers employed",
+"D":"Fuel consumption per vehicle"
+},
+"correct_answer":"A",
+"explanation":"Predictive maintenance aims primarily to reduce unexpected equipment downtime."
+},
+
+{
+"id":149,
+"question":"A financial services firm is exploring the use of artificial intelligence to automate routine customer inquiries. Leadership wants to ensure that automation improves efficiency without reducing customer satisfaction. Which approach would best support this goal?",
+"options":{
+"A":"Replace all customer service agents with automated systems",
+"D":"Introduce AI for simple inquiries while keeping human agents for complex issues",
+"C":"Reduce the number of customer service channels",
+"B":"Limit customer support availability"
+},
+"correct_answer":"D",
+"explanation":"Hybrid support systems balance efficiency and service quality."
+},
+
+{
+"id":150,
+"question":"A company wants to improve its long-term strategic planning process. Executives believe that external market forces such as regulatory changes, economic conditions, and technological developments are not consistently considered during planning discussions. Which analytical framework would best help evaluate these external influences?",
+"options":{
+"A":"SWOT analysis",
+"B":"Break-even analysis",
+"C":"Balanced scorecard",
+"D":"PESTLE analysis"
+},
+"correct_answer":"D",
+"explanation":"PESTLE evaluates political, economic, social, technological, legal, and environmental factors affecting strategy."
+},
 
   {
     "id": 151,
-    "question": "A SaaS company’s churn rose after introducing annual contracts with stricter cancellation terms. Customer support tickets about billing disputes doubled. What is the best first management action?",
+    "question": "A national grocery chain centralized purchasing to negotiate lower supplier prices and simplify its supplier base. Two quarters later, procurement savings are clear, but several regions show declining customer satisfaction and lower basket size. Store managers report that locally preferred items disappeared because central buyers prioritized national volume and standardized assortments. Customer comments mention “can’t find my usual brands” and “selection feels generic.” Leadership wants to keep most of the cost advantage from centralized buying while restoring regional relevance without exploding complexity or losing negotiating leverage. What is the most appropriate operational adjustment to test first?",
     "options": {
-      "A": "Increase the price to offset churn",
-      "B": "Blame support for poor communication and replace agents",
-      "C": "Analyze churn cohorts and billing-ticket root causes, then adjust policy/communication and implement dispute resolution controls",
-      "D": "Disable refunds entirely to reduce disputes"
+      "A": "Expand national advertising for current assortment",
+      "B": "Allow a capped regional add-on SKU list",
+      "C": "Standardize assortment further to reduce variation",
+      "D": "Reduce store hours to cut service costs"
     },
-    "correct_answer": "C",
-    "explanation": "The change likely created friction and perceived unfairness. Cohort and ticket analysis identifies which segments are affected and what policy/communication adjustments reduce churn and disputes."
+    "correct_answer": "B",
+    "explanation": "A controlled local add-on preserves savings while meeting local demand."
   },
   {
     "id": 152,
-    "question": "A manufacturing plant has an on-time delivery KPI of 98%. Leadership discovers shipments are marked 'delivered' when they leave the dock, not when customers receive them. What is the most appropriate response?",
+    "question": "A fast-growing SaaS platform doubled active users in a year. Infrastructure costs rose sharply because a small set of customers generates heavy API usage, frequent exports, and high storage needs. The current flat subscription is attractive for adoption but does not scale with cost-to-serve for high-usage accounts. Finance forecasts margin compression if usage continues rising, while product leaders worry that raising the base price will slow new-user growth. Leadership wants pricing that improves unit economics while keeping entry accessible and competitive. Which pricing change best fits the situation?",
     "options": {
-      "A": "Keep the KPI definition to maintain morale",
-      "B": "Redefine the KPI to reflect customer receipt and add controls to prevent metric gaming",
-      "C": "Stop measuring delivery performance",
-      "D": "Penalize employees immediately without changing measurement"
+      "A": "Raise the base price for all users",
+      "B": "Remove features from high-usage accounts",
+      "C": "Introduce usage tiers with overage charges",
+      "D": "Limit maximum usage per account monthly"
     },
-    "correct_answer": "B",
-    "explanation": "If the KPI definition is misaligned with customer outcomes, it drives the wrong behavior. Correct the definition and strengthen governance to ensure integrity."
+    "correct_answer": "C",
+    "explanation": "Tiered or metered pricing aligns revenue with usage-driven costs."
   },
   {
     "id": 153,
-    "question": "A manager has two proposals to reduce processing time. Option A reduces average time by 20% but increases error rate by 3 percentage points. Option B reduces average time by 12% with no error change. Which decision is most defensible?",
+    "question": "A construction company repeatedly exceeds budget on complex projects. Post-project reviews show frequent client-requested design changes after work begins, creating rework, new materials, and schedule disruptions. Project managers feel pressure to approve changes quickly to protect relationships, but cost impacts are inconsistently documented and not always reflected in billing. Leadership wants to remain client-friendly while preventing uncontrolled cost growth and schedule drift across projects. What management control should be strengthened first?",
     "options": {
-      "A": "Choose A because speed is always the priority",
-      "B": "Choose B unless the cost of errors is proven low and mitigations exist, then reassess A with controls",
-      "C": "Choose A and remove quality checks to regain speed",
-      "D": "Choose neither and accept current performance"
+      "A": "Increase contingency budgets on all projects",
+      "B": "Shorten schedules to reduce change exposure",
+      "C": "Offer discounts to discourage late changes",
+      "D": "Require signed change orders with pricing"
     },
-    "correct_answer": "B",
-    "explanation": "A realistic management decision weighs cost of errors, compliance, and customer impact. If error costs are significant, B is safer; A requires mitigation and economic justification."
+    "correct_answer": "D",
+    "explanation": "Formal change orders ensure scope changes include time and cost adjustments."
   },
   {
     "id": 154,
-    "question": "A company’s sales team reports that 'pipeline is strong,' but the CFO sees cash flow worsening. Which metric should the manager review first to reconcile these views?",
+    "question": "A transportation firm deployed telematics and found extended engine idling during loading and waiting. Fuel costs increased although route mileage stayed stable. Drivers explain that some docks have long queues and paperwork delays. Operations wants to reduce fuel waste without harming delivery reliability or adding fleet capacity. Leadership wants an intervention that targets behavior and bottlenecks, while keeping measurement transparent and fair to drivers. What is the best first operational action?",
     "options": {
-      "A": "Sales commission rate",
-      "B": "Cash conversion cycle (DSO, DPO, inventory days) and close probability assumptions",
-      "C": "Office utilization rate",
-      "D": "Number of website visitors"
+      "A": "Add more trucks to reduce queue time",
+      "B": "Set idle targets with coaching and tracking",
+      "C": "Increase route lengths to spread timing",
+      "D": "Install larger fuel tanks in vehicles"
     },
     "correct_answer": "B",
-    "explanation": "A strong pipeline does not guarantee cash. Review working capital drivers and whether pipeline probabilities are inflated or deals are delayed."
+    "explanation": "Coaching plus measured idle targets reduces waste without major redesign."
   },
   {
     "id": 155,
-    "question": "A hospital unit’s overtime costs are rising. Staffing levels are unchanged, but patient acuity has increased. What is the best first action?",
+    "question": "An apparel brand known for affordability is considering a premium line to lift margins and reach a higher-income segment. Several executives worry the move could confuse customers and weaken the brand’s value positioning. Others argue the premium line can be positioned as a separate collection with distinct design and distribution. Leadership wants to evaluate whether a premium extension will be accepted and whether it will damage the core brand. Which factor should be assessed first to reduce strategic risk?",
     "options": {
-      "A": "Ban overtime immediately",
-      "B": "Analyze workload/acuity trends, staffing mix, scheduling rules, and redeployment options, then adjust staffing model",
-      "C": "Reduce documentation requirements without approval",
-      "D": "Replace the unit manager"
+      "A": "Competitor store counts by region",
+      "B": "Total factory capacity for new items",
+      "C": "Brand perception and willingness-to-pay data",
+      "D": "Past-year advertising spend by category"
     },
-    "correct_answer": "B",
-    "explanation": "Overtime often reflects demand changes and staffing mismatch. A workload and scheduling analysis supports a sustainable staffing model adjustment."
+    "correct_answer": "C",
+    "explanation": "Premium extensions depend on perceived fit and willingness to pay."
   },
   {
     "id": 156,
-    "question": "A procurement manager wants to switch to a cheaper supplier. Quality audit data shows the cheaper supplier has higher variability but similar average defect rate. What is the most realistic risk to highlight?",
+    "question": "A bank automated loan applications and reduced decision time. After launch, call-center contacts increased and abandonment rose mid-application. Applicants report confusion about required documents and unclear step-by-step guidance. Leadership wants to keep automation efficiency while improving customer experience and reducing avoidable support demand. What is the best immediate improvement step?",
     "options": {
-      "A": "No risk because average defects are similar",
-      "B": "Higher variability increases the chance of severe quality incidents and inconsistent output",
-      "C": "Lower prices always improve brand reputation",
-      "D": "Quality variability only affects marketing, not operations"
+      "A": "Simplify forms and clarify on-screen guidance",
+      "B": "Tighten approval rules to lower volume",
+      "C": "Force all applicants into branch visits",
+      "D": "Reduce products to one standard loan"
     },
-    "correct_answer": "B",
-    "explanation": "Variability increases tail-risk (bad batches, recalls, downtime). Management should consider process capability and consistency, not only averages."
+    "correct_answer": "A",
+    "explanation": "Better UX lowers confusion and support load while retaining automation."
   },
   {
     "id": 157,
-    "question": "A manager notices that high performers are burning out while average performers have spare capacity. What is the most effective structural solution?",
+    "question": "A retailer redesigned store layout to encourage discovery and increase browsing time. Dwell time increased, but sales per store stayed flat. Managers suspect customers browse more but still buy the same amount, and some pathways may create friction near high-demand categories. Leadership wants a metric that best indicates whether layout changes affect purchasing behavior, not just time spent in the store. Which metric should be prioritized?",
     "options": {
-      "A": "Give high performers more work because they can handle it",
-      "B": "Rebalance workload with clear prioritization, improve skill distribution through training/mentoring, and adjust resource allocation",
-      "C": "Reduce transparency to prevent complaints",
-      "D": "Stop tracking performance"
+      "A": "Monthly inventory deliveries to each store",
+      "B": "Average transaction value per visit",
+      "C": "Total employee hours scheduled weekly",
+      "D": "Total store operating hours monthly"
     },
     "correct_answer": "B",
-    "explanation": "Burnout signals poor workload distribution and capability gaps. Rebalancing, prioritization, and skill development reduce dependency on a few individuals."
+    "explanation": "Transaction value per visit shows whether browsing converts into purchases."
   },
   {
     "id": 158,
-    "question": "A retailer’s promotions drive large spikes in demand, causing stockouts and markdowns afterward. What is the most realistic improvement approach?",
+    "question": "A factory had several unplanned breakdowns that halted production. Maintenance uses fixed calendar intervals across all machines, even though some equipment runs heavier loads and harsher cycles. Engineers believe failures could be reduced if inspections were based on usage and condition signals rather than time alone. Leadership wants fewer breakdowns without replacing equipment or materially increasing maintenance headcount. What approach best addresses the root issue?",
     "options": {
-      "A": "Run bigger promotions to sell more",
-      "B": "Align promotions with supply planning, use demand shaping, and optimize replenishment and forecast uplift assumptions",
-      "C": "Stop all promotions permanently",
-      "D": "Increase prices during promotions"
+      "A": "Replace the oldest machines immediately",
+      "B": "Double inspections equally for all machines",
+      "C": "Cut production volume to reduce wear",
+      "D": "Adopt condition-based or predictive maintenance"
     },
-    "correct_answer": "B",
-    "explanation": "Promotions require coordinated planning. Better uplift forecasting, replenishment, and timing reduces stockouts and post-promo excess inventory."
+    "correct_answer": "D",
+    "explanation": "Predictive maintenance targets risk based on usage and early warning signals."
   },
   {
     "id": 159,
-    "question": "A team reports 'we need more headcount' to meet deadlines. Data shows 30% of time is spent in rework due to unclear requirements. What should the manager do first?",
+    "question": "A telecom company expanded into home security installations. Demand is strong, but appointment lead times grew and reschedules increased because technicians travel long distances between jobs. Customer complaints cite missed windows and inconsistent arrival times. Leadership wants to improve productivity, reduce travel time, and protect service quality without shrinking geographic coverage. Which operational change is most effective?",
     "options": {
-      "A": "Hire immediately to reduce pressure",
-      "B": "Fix requirements quality and change control to reduce rework before adding headcount",
-      "C": "Increase deadlines so rework is acceptable",
-      "D": "Eliminate documentation"
+      "A": "Cluster appointments by geography and time blocks",
+      "B": "Raise installation prices to lower demand",
+      "C": "Increase advertising to fill schedules",
+      "D": "Limit offerings to one service package"
     },
-    "correct_answer": "B",
-    "explanation": "If rework is the primary driver, adding people may increase coordination cost. Reducing rework through better requirements is the highest-leverage action."
+    "correct_answer": "A",
+    "explanation": "Geographic clustering reduces travel and increases installs per technician-day."
   },
   {
     "id": 160,
-    "question": "A company’s data shows customer acquisition cost (CAC) rose 25% while conversion rate stayed flat. Which is the most plausible cause to investigate first?",
+    "question": "A software company is considering open-sourcing a core library used by its platform. Engineers expect faster innovation and a broader ecosystem through external contributions. Finance worries competitors will adopt the technology without paying and erode differentiation. Leadership wants to evaluate whether ecosystem benefits outweigh competitive risks and whether the move could increase adoption of the company’s paid products. Which factor deserves the most attention in the decision?",
     "options": {
-      "A": "A new HR policy",
-      "B": "Media costs increased or channel mix shifted to more expensive sources",
-      "C": "Employees are working fewer hours",
-      "D": "Inventory turnover improved"
+      "A": "Office space needs for engineering teams",
+      "B": "Competitors’ quarterly marketing budget levels",
+      "C": "Expected community adoption and contribution rate",
+      "D": "Average salaries for software engineers"
     },
-    "correct_answer": "B",
-    "explanation": "If conversion is flat but CAC rises, input costs or channel mix likely changed. Investigate CPM/CPC trends and attribution by channel."
+    "correct_answer": "C",
+    "explanation": "Open-source value depends on adoption and meaningful external contribution."
   },
   {
     "id": 161,
-    "question": "A manager is considering moving from quarterly to monthly forecasting. The team complains it will add work. What is the most appropriate justification for the change?",
+    "question": "A consumer goods company plans production using annual average demand. Demand is seasonal, creating excess inventory during slow months and stockouts during peaks. Storage costs increased and service levels fell during peak season. Leaders want to reduce waste and improve availability without permanently raising inventory investment. Which planning change best addresses the root cause?",
     "options": {
-      "A": "Forecasting frequency should always increase",
-      "B": "Higher frequency can improve responsiveness to demand changes and reduce surprises if combined with lightweight processes and clear decision use",
-      "C": "It will make reports look more professional",
-      "D": "It will reduce the need for decision-making"
+      "A": "Use seasonal forecasts and planned capacity shifts",
+      "B": "Increase safety stock evenly across months",
+      "C": "Standardize output the same every month",
+      "D": "Reduce distribution reach during peak season"
     },
-    "correct_answer": "B",
-    "explanation": "More frequent forecasting is valuable when it supports decisions. The key is a lightweight process tied to actions (inventory, staffing, budgets)."
+    "correct_answer": "A",
+    "explanation": "Seasonal forecasting aligns supply decisions with predictable demand swings."
   },
   {
     "id": 162,
-    "question": "A manager sees employee engagement scores rise, but productivity falls. Which explanation is most plausible?",
+    "question": "A hospital introduced online appointment booking to improve patient access. Bookings increased, but physician schedules now include irregular gaps, lowering utilization and creating uneven workloads across days. Patients value flexibility, and leadership does not want to remove online booking. Operations wants to reduce idle gaps while maintaining choice and clinical constraints. What is the best operational adjustment to implement first?",
     "options": {
-      "A": "Engagement always reduces productivity",
-      "B": "The team may be spending more time on meetings/activities that feel positive but reduce output, or goals/KPIs are unclear",
-      "C": "Productivity data is never reliable",
-      "D": "Higher engagement proves performance is improving"
+      "A": "Disable online booking for most specialties",
+      "B": "Reduce appointment types to one duration",
+      "C": "Introduce scheduling rules to minimize idle gaps",
+      "D": "Increase physician hours to absorb variability"
     },
-    "correct_answer": "B",
-    "explanation": "Engagement can rise while execution suffers if focus is lost, priorities are unclear, or time is consumed by non-productive activities."
+    "correct_answer": "C",
+    "explanation": "Scheduling rules can smooth utilization without removing online access."
   },
   {
     "id": 163,
-    "question": "A software release caused a severe outage. The post-incident review becomes blame-focused, and engineers stop sharing details. What should the manager do?",
+    "question": "A technology firm debates increasing R&D spend. Leaders agree innovation matters, but finance wants evidence that prior R&D created measurable business outcomes. Several launches occurred, yet it is unclear which revenue streams are driven by recent development work versus legacy products. Leadership wants a metric that links innovation output to commercial results to guide future investment decisions. Which metric is most appropriate?",
     "options": {
-      "A": "Identify a scapegoat to restore accountability",
-      "B": "Shift to a blameless postmortem process focused on system causes, controls, and learning, while maintaining accountability for actions",
-      "C": "Cancel postmortems",
-      "D": "Publicly criticize engineers to deter future errors"
+      "A": "Total headcount across all departments",
+      "B": "Share of revenue from recent product releases",
+      "C": "Monthly utility expenses for offices",
+      "D": "Average cost per employee workstation"
     },
     "correct_answer": "B",
-    "explanation": "Psychological safety improves incident learning. Blameless reviews analyze system factors and strengthen controls without discouraging transparency."
+    "explanation": "Revenue from recent releases connects R&D output to business value."
   },
   {
     "id": 164,
-    "question": "A company’s accounts receivable days (DSO) increased significantly. Sales claims customers are paying slower due to the economy. What is the best first step?",
+    "question": "A food delivery platform wants to reduce customer delivery time. Data shows the biggest delays occur before pickup because drivers travel far to reach restaurants. Leadership wants faster deliveries without dropping restaurants or increasing broad fees. Operations needs a change that targets the primary delay driver while maintaining marketplace coverage. Which operational change best reduces the pickup delay component?",
     "options": {
-      "A": "Accept the explanation and do nothing",
-      "B": "Segment DSO by customer cohort, invoice terms, dispute rate, and collection process to identify controllable drivers",
-      "C": "Stop offering credit to all customers immediately",
-      "D": "Increase marketing spend"
+      "A": "Dispatch drivers already near the restaurant",
+      "B": "Reduce driver pay to increase acceptance",
+      "C": "Limit restaurants to top-volume partners",
+      "D": "Increase menu prices for distant orders"
     },
-    "correct_answer": "B",
-    "explanation": "DSO is influenced by customer mix, terms, disputes, invoicing accuracy, and collections process. Segmenting reveals what can be improved internally."
+    "correct_answer": "A",
+    "explanation": "Near-restaurant dispatch reduces travel-to-pickup time, the largest delay."
   },
   {
     "id": 165,
-    "question": "A manager is asked to implement an AI tool that may reduce the need for some roles. Employee anxiety is high. What is the most realistic management approach?",
+    "question": "A company runs cross-department projects but repeatedly experiences misunderstandings, duplicated work, and version confusion. Teams store documents in separate tools, and updates are often shared informally. Project delays occur when teams discover late-stage mismatches in assumptions or data. Leadership wants better transparency and coordination without adding excessive administrative overhead. Which solution most directly addresses the information-fragmentation problem?",
     "options": {
-      "A": "Promise no job changes under any circumstances",
-      "B": "Communicate the rationale and timeline, define reskilling pathways, and plan workforce impacts transparently with HR guidance",
-      "C": "Avoid communication until launch day",
-      "D": "Let rumors spread to test sentiment"
+      "A": "Increase the number of weekly status meetings",
+      "B": "Require written reports after every milestone",
+      "C": "Adopt a shared collaboration platform for projects",
+      "D": "Hire additional middle managers for oversight"
     },
-    "correct_answer": "B",
-    "explanation": "Transparency, reskilling options, and structured workforce planning reduce fear and improve adoption while remaining truthful about potential impacts."
+    "correct_answer": "C",
+    "explanation": "A shared platform centralizes information and reduces version confusion."
   },
   {
     "id": 166,
-    "question": "A company’s best-selling product has a high return rate. Analysis shows returns correlate with a specific marketing claim. What should management do first?",
+    "question": "A manufacturer ships most products to customers located far from its current plants. Transportation costs are a growing share of unit cost. Leadership is considering relocating part of production closer to major markets, but new facilities would require significant capital investment and transition risk. Executives want to evaluate whether relocation improves long-term profitability and resilience. Which analysis best supports the decision?",
     "options": {
-      "A": "Increase the claim to boost sales further",
-      "B": "Pause or revise the claim, align marketing with product reality, and address product/expectation gaps",
-      "C": "Stop tracking returns",
-      "D": "Blame customers for misuse"
+      "A": "Compare long-term logistics savings to capex costs",
+      "B": "Increase production at current plants immediately",
+      "C": "Reduce marketing spend to fund relocation",
+      "D": "Expand the product portfolio before relocating"
     },
-    "correct_answer": "B",
-    "explanation": "Misleading positioning creates expectation gaps, driving returns and reputational risk. Fix messaging and address root product/fit issues."
+    "correct_answer": "A",
+    "explanation": "A cost comparison of savings versus investment determines financial viability."
   },
   {
     "id": 167,
-    "question": "A manager notices that a new policy improved compliance but increased cycle time significantly. What is the best next step?",
+    "question": "A bank introduced mobile check deposit using smartphone cameras. Adoption is rising, but some customers express security concerns and fear fraud. Leadership wants to preserve convenience while improving confidence and reducing anxiety-driven churn. The bank already uses multi-factor authentication and transaction monitoring. What is the best first step to address the trust issue without undermining usability?",
     "options": {
-      "A": "Remove compliance controls entirely",
-      "B": "Assess which controls add value, streamline low-value steps, and automate where possible while maintaining compliance outcomes",
-      "C": "Ignore cycle time because compliance is all that matters",
-      "D": "Increase output targets without changing processes"
+      "A": "Disable mobile deposits until complaints stop",
+      "B": "Require branch visits for all deposits",
+      "C": "Communicate security measures and protections clearly",
+      "D": "Limit deposits to very small amounts only"
     },
-    "correct_answer": "B",
-    "explanation": "You must preserve compliance while optimizing execution. Streamlining and automation reduce cycle time without compromising required controls."
+    "correct_answer": "C",
+    "explanation": "Clear communication about protections increases trust while keeping convenience."
   },
   {
     "id": 168,
-    "question": "A manager is evaluating a new product launch. Forecast accuracy is historically poor, and inventory write-offs are common. Which approach reduces risk most effectively?",
+    "question": "An electronics retailer observes that many customers research products online before visiting stores. Shoppers compare specifications, check availability, and look for delivery or pickup options. Leadership wants to integrate online and in-store experiences to reduce friction and capture more sales, while keeping inventory manageable. Which initiative best supports an omnichannel experience with minimal disruption?",
     "options": {
-      "A": "Build inventory for the optimistic forecast to avoid stockouts",
-      "B": "Use phased rollout, smaller initial builds, rapid feedback loops, and flexible supply commitments",
-      "C": "Ignore forecasting and produce randomly",
-      "D": "Lock in large supplier orders to get discounts"
+      "A": "Increase store hours to capture more visits",
+      "B": "Offer buy-online and pick up in-store",
+      "C": "Remove online promotions to drive store traffic",
+      "D": "Reduce product information on the website"
     },
     "correct_answer": "B",
-    "explanation": "When forecast uncertainty is high, phased launches and flexible supply reduce the downside of overproduction while learning demand quickly."
+    "explanation": "BOPIS connects digital intent with store fulfillment and reduces purchase friction."
   },
   {
     "id": 169,
-    "question": "A manager is negotiating a partnership where the other party wants exclusivity. What is the most important risk to assess?",
+    "question": "A firm’s performance reviews are criticized as inconsistent and overly subjective. Managers rely heavily on opinions rather than measurable outcomes, creating concerns about fairness and bias. Employees report unclear expectations and limited transparency on what “good performance” means. Leadership wants to improve fairness while keeping the system practical across different roles. Which change best addresses the root issue?",
     "options": {
-      "A": "Whether exclusivity could limit future strategic options and create dependency",
-      "B": "Whether the partner’s logo looks good",
-      "C": "Whether employees will like the partner",
-      "D": "Whether the partnership will reduce the need for KPIs"
+      "A": "Reduce the frequency of performance reviews",
+      "B": "Increase manager discretion in ratings",
+      "C": "Allow self-evaluations to determine outcomes",
+      "D": "Define role-based measurable performance indicators"
     },
-    "correct_answer": "A",
-    "explanation": "Exclusivity can create lock-in and dependency, limiting future growth or alternative partnerships. Assess opportunity cost and exit clauses."
+    "correct_answer": "D",
+    "explanation": "Objective, role-based indicators reduce subjectivity and improve transparency."
   },
   {
     "id": 170,
-    "question": "A business unit wants to improve profitability. Data shows many small customers require disproportionate support time. What is the most realistic strategic response?",
+    "question": "A logistics hub experiences congestion because supplier trucks often arrive at the same time, creating queues at docks and delaying unloading. Staffing is adequate during normal flow, but peak bunching overwhelms capacity. Leadership wants to reduce bottlenecks without cutting shipment volume or building new docks immediately. Which operational adjustment is most effective first?",
     "options": {
-      "A": "Keep all customers and increase support workload",
-      "B": "Segment customers by profitability, adjust service tiers/pricing, and consider minimums or self-service for low-margin segments",
-      "C": "Stop serving enterprise customers",
-      "D": "Reduce product quality to save costs"
+      "A": "Increase shipment size per delivery to reduce trips",
+      "B": "Stagger supplier appointment times through scheduling",
+      "C": "Reduce warehouse staffing during off-peak hours",
+      "D": "Limit the number of suppliers used annually"
     },
     "correct_answer": "B",
-    "explanation": "Profitability often varies by segment. Service tiering and pricing alignment improve margins without harming strategic customers."
+    "explanation": "Staggered appointments smooth arrivals and reduce peak-time congestion."
   },
   {
     "id": 171,
-    "question": "A manager inherits a team with low trust due to past micromanagement. What is the best first move in the first 2 weeks?",
+    "question": "A company faced multiple attempted cyber intrusions. Investigations show some employees reuse passwords and fall for realistic phishing emails. Leadership believes a major portion of risk is human behavior rather than technology alone. The company already has baseline security tools, but incidents persist due to user actions. Leadership wants a practical initiative that reduces risk quickly without harming productivity. What is the best next step?",
     "options": {
-      "A": "Implement strict monitoring immediately",
-      "B": "Hold 1:1s to understand pain points, clarify priorities, and make one visible improvement while setting clear expectations",
-      "C": "Avoid meeting the team to prevent bias",
-      "D": "Replace the team lead to reset culture"
+      "A": "Install more office security cameras everywhere",
+      "B": "Require cybersecurity training and enforce policies",
+      "C": "Restrict internet access for all employees",
+      "D": "Ban remote work to reduce exposure"
     },
     "correct_answer": "B",
-    "explanation": "Trust is rebuilt through listening, clarity, and quick wins that demonstrate support and reliability, not through immediate control escalation."
+    "explanation": "Training plus enforced controls reduces phishing and weak-password risk."
   },
   {
     "id": 172,
-    "question": "A company’s product roadmap is overloaded. Teams miss deadlines and quality declines. What is the most effective portfolio-level intervention?",
+    "question": "A manufacturer plans to launch a new product but demand forecasts are uncertain due to shifting market conditions. Building large inventory before launch could reduce stockout risk but may create costly excess inventory if adoption is slower than expected. Leadership wants to minimize financial risk while remaining capable of scaling quickly if demand is strong. Which launch strategy best balances risk and responsiveness?",
     "options": {
-      "A": "Add more projects to increase innovation",
-      "B": "Reduce work-in-progress, prioritize fewer initiatives, and align capacity to strategic goals",
-      "C": "Increase meeting frequency",
-      "D": "Delay all releases indefinitely"
+      "A": "Build maximum inventory before product launch",
+      "B": "Delay the launch until forecasts stabilize",
+      "C": "Start with limited volume and scale in phases",
+      "D": "Cut marketing to keep demand predictable"
     },
-    "correct_answer": "B",
-    "explanation": "Too many simultaneous initiatives creates context switching and quality issues. Limiting WIP and focusing on priorities improves throughput and outcomes."
+    "correct_answer": "C",
+    "explanation": "Phased scaling reduces downside risk while preserving upside capacity."
   },
   {
     "id": 173,
-    "question": "A manager’s team consistently misses deadlines due to dependencies on another department. What is the most realistic action?",
+    "question": "A consulting firm wants to improve proposal accuracy after multiple projects exceeded initial estimates. Reviews show teams often underestimate complexity because requirements are loosely defined at proposal stage, and risks are not systematically captured. Leadership wants proposals to better reflect scope, assumptions, and risk so margins and delivery timelines improve. Which practice most directly improves estimate quality before proposals are finalized?",
     "options": {
-      "A": "Blame the other department publicly",
-      "B": "Create explicit dependency agreements (SLAs), shared planning, and escalation paths; adjust plans based on dependency capacity",
-      "C": "Ignore dependencies and keep committing to dates",
-      "D": "Stop collaborating with the other department"
+      "A": "Standardize pricing across all projects",
+      "B": "Add more sales staff to pursue leads",
+      "C": "Reduce time spent preparing proposals",
+      "D": "Use structured scoping and risk review sessions"
     },
-    "correct_answer": "B",
-    "explanation": "Dependencies require governance: shared planning, clear expectations, and escalation. Commitments must reflect dependency capacity and lead time."
+    "correct_answer": "D",
+    "explanation": "Structured scoping clarifies requirements and surfaces risks before estimating."
   },
   {
     "id": 174,
-    "question": "A CFO asks why revenue rose but profit fell. Which is the most plausible explanation to check first?",
+    "question": "A software product sees strong trial sign-ups but many users stop using it after a few weeks. Usage data shows low activation of key features that drive long-term value. Customer interviews suggest new users feel overwhelmed and do not understand how to reach early success outcomes. Leadership wants to increase retention and engagement without adding significant support headcount. Which initiative most directly addresses the adoption problem?",
     "options": {
-      "A": "Variable costs increased or mix shifted to lower-margin products",
-      "B": "Employee morale increased",
-      "C": "Market size decreased",
-      "D": "Brand awareness increased"
+      "A": "Increase subscription prices to signal value",
+      "B": "Improve onboarding guidance and in-product prompts",
+      "C": "Reduce the number of available features",
+      "D": "Limit customer support channels to email"
     },
-    "correct_answer": "A",
-    "explanation": "Revenue growth can come from lower-margin mix or higher variable costs, reducing profit even as top-line improves."
+    "correct_answer": "B",
+    "explanation": "Better onboarding increases activation of key features and early success."
   },
   {
     "id": 175,
-    "question": "A manager is asked to 'improve culture' after a merger. Employees report confusion about decision-making and priorities. What is the most effective focus area?",
+    "question": "A company wants to strengthen strategic planning by consistently evaluating external forces such as regulatory changes, economic shifts, new technologies, and social trends. Leaders believe teams focus too narrowly on internal execution and do not systematically scan the environment, leading to surprises and reactive decisions. Leadership wants a structured framework to identify and review external influences each planning cycle. Which tool best supports this objective?",
     "options": {
-      "A": "New office decorations",
-      "B": "Clarify operating model: decision rights, values translated into behaviors, and consistent leadership routines",
-      "C": "More social events only",
-      "D": "Remove all policies"
+      "A": "Break-even analysis for product lines",
+      "B": "Balanced scorecard for internal execution",
+      "C": "SWOT analysis of internal capabilities",
+      "D": "PESTLE analysis of external environment"
     },
-    "correct_answer": "B",
-    "explanation": "Post-merger culture issues are often structural: unclear decision rights and priorities. Operating model clarity makes culture actionable."
+    "correct_answer": "D",
+    "explanation": "PESTLE systematically reviews external political, economic, social, technological, legal, and environmental factors."
   },
-  {
-    "id": 176,
-    "question": "A manager wants to reduce customer complaints. Complaint types vary widely. What is the best first analytical step?",
-    "options": {
-      "A": "Respond faster to every complaint without analysis",
-      "B": "Create a Pareto chart of complaint categories and identify the 'vital few' driving most issues",
-      "C": "Stop accepting complaints",
-      "D": "Offer discounts to all customers"
-    },
-    "correct_answer": "B",
-    "explanation": "Pareto analysis identifies the highest-impact complaint categories to prioritize improvements effectively."
-  },
-  {
-    "id": 177,
-    "question": "A manager notices a high number of 'urgent' requests that bypass normal prioritization. What is the best long-term fix?",
-    "options": {
-      "A": "Accept all urgent requests to be customer-friendly",
-      "B": "Define what qualifies as urgent, implement an intake system with priority criteria, and track urgency rate as a KPI",
-      "C": "Refuse all urgent work",
-      "D": "Let each employee decide urgency individually"
-    },
-    "correct_answer": "B",
-    "explanation": "Clear criteria and intake prevent priority inflation. Tracking urgency exposes systemic planning problems and drives process improvement."
-  },
-  {
-    "id": 178,
-    "question": "A company relies on a single cloud provider. A regional outage causes business disruption. What is the most realistic resilience strategy?",
-    "options": {
-      "A": "Do nothing; outages are rare",
-      "B": "Design for regional redundancy, implement disaster recovery testing, and evaluate multi-region or multi-cloud for critical workloads",
-      "C": "Move everything on-premise immediately",
-      "D": "Increase marketing to offset downtime"
-    },
-    "correct_answer": "B",
-    "explanation": "Resilience comes from redundancy and tested recovery. Multi-region DR and drills are realistic first steps; multi-cloud may be justified for critical systems."
-  },
-  {
-    "id": 179,
-    "question": "A manager is asked to cut a department budget by 15% mid-year. What is the most responsible approach?",
-    "options": {
-      "A": "Cut evenly across all lines without review",
-      "B": "Assess fixed vs variable costs, protect critical capabilities, prioritize cuts based on strategic value and ROI, and communicate trade-offs",
-      "C": "Cut compliance and safety first",
-      "D": "Stop paying suppliers until year-end"
-    },
-    "correct_answer": "B",
-    "explanation": "Budget cuts require prioritization, risk management, and transparency. Not all costs are equal in strategic value or risk."
-  },
-  {
-    "id": 180,
-    "question": "A company’s training program increased completion rates, but skill assessments did not improve. What is the most plausible issue?",
-    "options": {
-      "A": "Training length is too short by definition",
-      "B": "The program measures activity (completion) not learning outcomes; content/practice/assessment alignment is weak",
-      "C": "Employees are incapable of learning",
-      "D": "Assessments are always wrong"
-    },
-    "correct_answer": "B",
-    "explanation": "Completion is an output metric, not an outcome. If skills don’t improve, instruction and practice likely do not match required competencies."
-  },
-  {
-    "id": 181,
-    "question": "A manager wants to implement OKRs. Teams already have many KPIs and feel overloaded. What is the best implementation approach?",
-    "options": {
-      "A": "Add OKRs on top of everything with no changes",
-      "B": "Replace or consolidate existing metrics, limit objectives, and connect OKRs to decision-making and accountability routines",
-      "C": "Use OKRs only for executives",
-      "D": "Avoid measurable key results"
-    },
-    "correct_answer": "B",
-    "explanation": "OKRs work when they simplify focus, not add complexity. Consolidation and clear routines prevent metric overload."
-  },
-  {
-    "id": 182,
-    "question": "A manager notices that a new incentive program improved output but increased safety incidents. What is the best response?",
-    "options": {
-      "A": "Keep the incentive program and accept more incidents",
-      "B": "Pause or redesign incentives to include safety/quality constraints and reinforce safe operating procedures",
-      "C": "Stop measuring safety",
-      "D": "Increase output targets further"
-    },
-    "correct_answer": "B",
-    "explanation": "Incentives must balance output with safety. Including safety metrics and reinforcing procedures reduces unintended consequences."
-  },
-  {
-    "id": 183,
-    "question": "A manager must decide whether to accept a large customer’s custom feature request. It will delay the roadmap by 6 weeks and adds ongoing maintenance cost. What is the most realistic decision method?",
-    "options": {
-      "A": "Always accept large customer requests",
-      "B": "Quantify revenue impact, strategic value, opportunity cost, and maintenance burden; decide using a product governance process",
-      "C": "Always reject custom requests",
-      "D": "Decide based on personal preference"
-    },
-    "correct_answer": "B",
-    "explanation": "Realistic product decisions weigh economics and strategy against opportunity cost and long-term support/maintenance implications."
-  },
-  {
-    "id": 184,
-    "question": "A company’s survey shows high employee satisfaction but low retention among early-career hires. What is the most plausible issue to investigate?",
-    "options": {
-      "A": "Office temperature",
-      "B": "Career progression, mentorship, and role clarity for early-career employees",
-      "C": "Brand awareness",
-      "D": "Inventory levels"
-    },
-    "correct_answer": "B",
-    "explanation": "Early-career retention often depends on growth, mentorship, and clarity. Overall satisfaction may mask segment-specific issues."
-  },
-  {
-    "id": 185,
-    "question": "A manager suspects quality issues are caused by inconsistent work instructions across shifts. What is the most appropriate fix?",
-    "options": {
-      "A": "Let each shift adapt instructions freely",
-      "B": "Standardize work instructions, train across shifts, and audit adherence while enabling controlled improvement feedback",
-      "C": "Remove instructions to encourage creativity",
-      "D": "Increase production targets"
-    },
-    "correct_answer": "B",
-    "explanation": "Standard work reduces variation. Cross-shift training and audits ensure consistent execution while allowing structured improvements."
-  },
-  {
-    "id": 186,
-    "question": "A manager is told the company must comply with a new regulation within 90 days. Which first step is most critical?",
-    "options": {
-      "A": "Wait for competitors to act",
-      "B": "Perform a gap assessment against requirements, assign owners, and build a compliance plan with milestones",
-      "C": "Send a company-wide email and assume compliance will happen",
-      "D": "Stop selling the product permanently"
-    },
-    "correct_answer": "B",
-    "explanation": "Compliance begins with understanding gaps, ownership, and a plan. Without a gap assessment and milestones, execution is unreliable."
-  },
-  {
-    "id": 187,
-    "question": "A manager’s team complains that priorities change weekly due to executive requests. What is the most realistic corrective action?",
-    "options": {
-      "A": "Refuse all executive requests",
-      "B": "Introduce a cadence for priority changes (e.g., weekly intake), require trade-off decisions, and maintain a visible priority backlog",
-      "C": "Allow priority changes at any time",
-      "D": "Stop tracking priorities"
-    },
-    "correct_answer": "B",
-    "explanation": "A predictable intake cadence and explicit trade-offs reduce thrash while still allowing leadership input."
-  },
-  {
-    "id": 188,
-    "question": "A company experiences frequent rework because different teams interpret requirements differently. What is the best process improvement?",
-    "options": {
-      "A": "Allow each team to interpret requirements independently",
-      "B": "Implement clearer requirement templates, acceptance criteria, and stakeholder sign-off before execution",
-      "C": "Reduce collaboration to avoid disputes",
-      "D": "Increase overtime"
-    },
-    "correct_answer": "B",
-    "explanation": "Clear templates and acceptance criteria reduce ambiguity. Stakeholder sign-off aligns interpretation and reduces rework."
-  },
-  {
-    "id": 189,
-    "question": "A manager notices vendor invoices frequently have errors, delaying payments and straining relationships. What is the most effective first intervention?",
-    "options": {
-      "A": "Stop paying all vendors",
-      "B": "Standardize purchase orders and invoice matching rules, then address root causes with the vendor and internal procurement process",
-      "C": "Ask accounting to work longer hours indefinitely",
-      "D": "Ignore invoice errors if amounts are small"
-    },
-    "correct_answer": "B",
-    "explanation": "Invoice errors are often process mismatches. Standardization and matching controls reduce errors and resolve systemic issues."
-  },
-  {
-    "id": 190,
-    "question": "A manager is measuring team performance using only 'hours worked.' What is the most realistic concern?",
-    "options": {
-      "A": "Hours worked always correlate perfectly with results",
-      "B": "It incentivizes presenteeism and can reduce focus on outcomes, quality, and efficiency",
-      "C": "It improves innovation automatically",
-      "D": "It removes the need for leadership"
-    },
-    "correct_answer": "B",
-    "explanation": "Hours-based measurement encourages long hours instead of results, potentially harming efficiency and quality."
-  },
-  {
-    "id": 191,
-    "question": "A company sees an increase in employee injuries in one facility. What is the best initial response?",
-    "options": {
-      "A": "Assume employees are careless and punish them",
-      "B": "Conduct a safety investigation: incident analysis, hazard assessment, training review, and corrective actions with leadership accountability",
-      "C": "Stop reporting injuries to improve metrics",
-      "D": "Increase production quotas to compensate"
-    },
-    "correct_answer": "B",
-    "explanation": "Safety requires root cause analysis and corrective action. Punishment alone discourages reporting and fails to address hazards."
-  },
-  {
-    "id": 192,
-    "question": "A manager needs to decide whether to renew a contract with a vendor. The vendor met SLAs, but internal stakeholders complain the service is difficult to use. What should the manager do?",
-    "options": {
-      "A": "Renew immediately because SLAs were met",
-      "B": "Evaluate SLAs plus user experience and total cost of ownership; renegotiate requirements or consider alternatives based on stakeholder impact",
-      "C": "Cancel without analysis",
-      "D": "Ignore stakeholders to avoid conflict"
-    },
-    "correct_answer": "B",
-    "explanation": "SLA compliance may miss usability and adoption issues. A realistic decision includes stakeholder experience and total cost over time."
-  },
-  {
-    "id": 193,
-    "question": "A company wants to enter a new market but lacks brand recognition there. What is the most realistic early strategy to reduce risk?",
-    "options": {
-      "A": "Launch nationwide immediately with full product line",
-      "B": "Pilot in a smaller segment/region, validate product-market fit, and iterate messaging and channels before scaling",
-      "C": "Avoid any marketing spend",
-      "D": "Compete only by lowering prices below cost"
-    },
-    "correct_answer": "B",
-    "explanation": "Pilots reduce uncertainty and improve learning before committing large resources to full-scale entry."
-  },
-  {
-    "id": 194,
-    "question": "A manager is implementing a new CRM. Sales adoption is low because they say 'it slows us down.' What is the best first step?",
-    "options": {
-      "A": "Force adoption with threats only",
-      "B": "Map sales workflows, remove friction (automation, defaults), clarify benefits, and set minimum usage standards supported by training",
-      "C": "Disable the CRM",
-      "D": "Let sales decide individually whether to use it"
-    },
-    "correct_answer": "B",
-    "explanation": "Adoption improves when the tool fits workflows and reduces friction. Pair workflow improvements with standards, training, and leadership reinforcement."
-  },
-  {
-    "id": 195,
-    "question": "A manager sees that the team's forecast accuracy improved, but the business still misses targets. What is the most plausible reason?",
-    "options": {
-      "A": "Forecast accuracy guarantees target achievement",
-      "B": "Targets may be unrealistic or not aligned with capacity, or execution constraints are preventing delivery even with accurate forecasts",
-      "C": "Forecast accuracy is irrelevant to planning",
-      "D": "The team is intentionally failing"
-    },
-    "correct_answer": "B",
-    "explanation": "Accurate forecasts support planning, but targets can still be missed if goals exceed capacity or if constraints/risks are not addressed in execution."
-  },
-  {
-    "id": 196,
-    "question": "A manager must allocate limited engineering time between reducing technical debt and building new features. Customer complaints are rising due to reliability issues. What is the best approach?",
-    "options": {
-      "A": "Build only new features to satisfy sales",
-      "B": "Prioritize reliability fixes and technical debt that directly impacts customer experience, while maintaining a small feature pipeline",
-      "C": "Stop all development",
-      "D": "Ignore reliability complaints"
-    },
-    "correct_answer": "B",
-    "explanation": "Reliability issues harm retention and reputation. A balanced approach addresses debt tied to customer pain while keeping strategic feature progress."
-  },
-  {
-    "id": 197,
-    "question": "A manager notices that a new scheduling system reduced labor costs but increased customer wait times. What is the most realistic next step?",
-    "options": {
-      "A": "Keep reducing labor regardless of wait times",
-      "B": "Re-optimize staffing for service-level targets, balancing labor cost with customer experience metrics and peak demand patterns",
-      "C": "Stop measuring wait times",
-      "D": "Increase prices immediately without analysis"
-    },
-    "correct_answer": "B",
-    "explanation": "Cost savings can create service degradation. Re-optimizing schedules against service-level goals balances cost and customer experience."
-  },
-  {
-    "id": 198,
-    "question": "A manager is asked to present a business case for hiring two analysts. What is the most defensible structure for the case?",
-    "options": {
-      "A": "State that analysts are helpful without numbers",
-      "B": "Define problem, quantify benefits (time saved, risk reduced, revenue impact), estimate costs, outline assumptions, and show ROI/payback",
-      "C": "Focus only on competitor headcount",
-      "D": "Use only qualitative testimonials"
-    },
-    "correct_answer": "B",
-    "explanation": "A credible business case quantifies benefits and costs, states assumptions, and connects hiring to measurable outcomes."
-  },
-  {
-    "id": 199,
-    "question": "A manager suspects that a team is over-reporting progress due to fear of consequences. What is the most realistic intervention?",
-    "options": {
-      "A": "Increase punishment for missed deadlines",
-      "B": "Create a culture of transparency with psychological safety, use objective progress metrics, and separate reporting from blame",
-      "C": "Stop tracking progress",
-      "D": "Ask only top performers to report"
-    },
-    "correct_answer": "B",
-    "explanation": "Over-reporting often comes from fear. Psychological safety plus objective metrics reduces distortion and improves decision-making."
-  },
-  {
-    "id": 200,
-    "question": "A manager is leading a cost reduction initiative. Teams propose cutting customer support hours. Data shows support response time strongly predicts renewals. What should the manager do?",
-    "options": {
-      "A": "Cut support hours because it is an easy saving",
-      "B": "Avoid cuts that damage renewals; instead optimize support efficiency (self-service, tooling, routing) while protecting response time targets",
-      "C": "Stop measuring renewals",
-      "D": "Increase prices to compensate for churn"
-    },
-    "correct_answer": "B",
-    "explanation": "If response time drives renewals, cutting support creates larger downstream revenue loss. Improve efficiency and protect service-level outcomes."
-  }
+
+{
+"id":176,
+"question":"A retail chain introduced self-checkout machines to reduce labor costs and shorten lines. Labor costs fell, but customer surveys show frustration among shoppers who prefer assistance. Many customers now wait longer at staffed registers while some self-checkout machines remain unused. Leadership wants to keep automation benefits while improving customer experience. Which adjustment would most effectively address the issue?",
+"options":{
+"A":"Add staff near self-checkout stations",
+"B":"Remove all self-checkout machines",
+"C":"Close several traditional registers",
+"D":"Increase promotional advertising"
+},
+"correct_answer":"A",
+"explanation":"Staff assistance helps customers use automation without removing efficiency benefits."
+},
+{
+"id":177,
+"question":"A subscription software company observes that many customers upgrade to larger plans early but downgrade several months later. Interviews show that customers initially select plans larger than their actual usage. Leadership wants to reduce downgrades while maintaining strong revenue growth. What change would best address the situation?",
+"options":{
+"A":"Increase prices on all plans",
+"C":"Recommend plans based on usage data",
+"B":"Remove lower-tier plans entirely",
+"D":"Require annual subscription contracts"
+},
+"correct_answer":"C",
+"explanation":"Usage-based recommendations guide customers toward appropriate plan sizes."
+},
+{
+"id":178,
+"question":"A manufacturer relies on a supplier for critical components. Recently, shipments have arrived late because the supplier began serving several new clients. Leadership wants to prevent production disruptions while evaluating long-term solutions. What action should be taken first?",
+"options":{
+"A":"Switch to a new supplier immediately",
+"B":"Increase inventory safety stock",
+"C":"Reduce production volume temporarily",
+"D":"Cancel orders for the component"
+},
+"correct_answer":"B",
+"explanation":"Safety stock buffers supply delays while longer-term sourcing decisions are evaluated."
+},
+{
+"id":179,
+"question":"A consulting firm notices that projects requiring repeated revisions often generate lower profit margins. Additional work is sometimes completed without billing the client. Leadership wants to improve profitability while preserving strong client relationships. Which change would most directly address the issue?",
+"options":{
+"A":"Raise consulting prices for all projects",
+"B":"Reduce the number of active clients",
+"C":"Track and bill revision work transparently",
+"D":"Shorten project timelines significantly"
+},
+"correct_answer":"C",
+"explanation":"Tracking and billing revisions ensures extra work is compensated."
+},
+{
+"id":180,
+"question":"A technology company plans to enter a new market where competitors offer similar products at lower prices. Research shows customers value reliability and customer support more than price. Leadership wants to emphasize these strengths in its strategy. Which competitive approach is most appropriate?",
+"options":{
+"A":"Cost leadership approach",
+"D":"Differentiation strategy",
+"C":"Aggressive price matching",
+"B":"Short-term market exit"
+},
+"correct_answer":"D",
+"explanation":"Differentiation emphasizes reliability and service advantages."
+},
+{
+"id":181,
+"question":"A logistics company finds drivers often choose different routes to the same destination. Some routes are shorter but slower due to traffic, while others are longer but faster. Leadership wants more consistent delivery times across routes. What operational change would help most?",
+"options":{
+"A":"Allow drivers full route flexibility",
+"B":"Introduce standardized route guidelines",
+"C":"Reduce total delivery locations",
+"D":"Increase highway speed limits"
+},
+"correct_answer":"B",
+"explanation":"Standard routing improves predictability and delivery consistency."
+},
+{
+"id":182,
+"question":"A consumer electronics firm plans to release a new product but expects demand uncertainty in early months. Leadership wants to avoid large unsold inventory while remaining capable of scaling quickly if demand grows. Which production approach best supports this objective?",
+"options":{
+"A":"Build full inventory before launch",
+"B":"Delay the product launch",
+"C":"Start with limited production runs",
+"D":"Reduce marketing exposure initially"
+},
+"correct_answer":"C",
+"explanation":"Gradual scaling limits risk while preserving flexibility."
+},
+{
+"id":183,
+"question":"A bank notices many customers abandon online account applications during the document upload step. Leadership wants to increase completion rates without weakening identity verification standards. What change would most effectively address the issue?",
+"options":{
+"A":"Allow alternative document submission methods",
+"B":"Remove document verification entirely",
+"C":"Increase account opening fees",
+"D":"Limit the number of online applications"
+},
+"correct_answer":"A",
+"explanation":"Flexible document submission reduces friction while maintaining verification."
+},
+{
+"id":184,
+"question":"A manufacturer evaluates automating part of its assembly process. Automation would increase productivity but requires substantial investment. Leadership wants to determine whether the project will generate sufficient financial return. Which analysis would best support the decision?",
+"options":{
+"A":"Customer satisfaction surveys",
+"B":"Marketing performance metrics",
+"C":"Net present value analysis",
+"D":"Warehouse inventory levels"
+},
+"correct_answer":"C",
+"explanation":"NPV evaluates long-term financial benefits relative to investment."
+},
+{
+"id":185,
+"question":"A retail chain observes that certain products sell better in urban stores than suburban locations. Leadership wants to improve sales performance by adjusting product assortments. Which strategy would best address the difference in demand?",
+"options":{
+"A":"Offer identical products in every store",
+"C":"Customize assortments by location",
+"B":"Reduce the number of available items",
+"D":"Increase advertising for weak sellers"
+},
+"correct_answer":"C",
+"explanation":"Location-based assortments match customer preferences."
+},
+{
+"id":186,
+"question":"A development team frequently misses deadlines because new feature requests are added during development. Leadership wants predictable release schedules while still accepting useful feedback. What management practice would best address the issue?",
+"options":{
+"A":"Reject all feature suggestions",
+"B":"Adopt structured change management",
+"C":"Increase team working hours",
+"D":"Delay releases indefinitely"
+},
+"correct_answer":"B",
+"explanation":"Structured change control prevents uncontrolled scope expansion."
+},
+{
+"id":187,
+"question":"A restaurant chain considers partnering with delivery platforms that charge commission fees. These platforms increase reach but may reduce profit margins. Leadership wants to determine whether the partnership is financially beneficial. Which metric would be most useful?",
+"options":{
+"A":"Average food preparation time",
+"B":"Revenue from delivery orders",
+"C":"Total number of menu items",
+"D":"Customer survey responses"
+},
+"correct_answer":"B",
+"explanation":"Delivery revenue helps evaluate the financial contribution of the channel."
+},
+{
+"id":188,
+"question":"A financial services firm wants to improve long-term customer retention. Data shows clients often disengage after their first year. Leadership wants to strengthen relationships and maintain engagement. Which initiative would most effectively address the issue?",
+"options":{
+"A":"Temporary fee discounts",
+"B":"Proactive client communication",
+"C":"Higher advertising budgets",
+"D":"Reduced service availability"
+},
+"correct_answer":"B",
+"explanation":"Ongoing communication strengthens relationships and improves retention."
+},
+{
+"id":189,
+"question":"A manufacturer wants to reduce scrap during production. Engineers discover that small variations in raw material dimensions cause defects during assembly. Leadership wants to reduce waste without slowing production. Which step should be prioritized?",
+"options":{
+"A":"Tighten supplier specifications",
+"B":"Increase inspection frequency",
+"C":"Reduce daily production volume",
+"D":"Hire additional inspectors"
+},
+"correct_answer":"A",
+"explanation":"Improving material quality reduces defects at the source."
+},
+{
+"id":190,
+"question":"A transportation company wants to improve driver safety after several accidents linked to fatigue. Leadership wants to reduce risk while maintaining operational capacity. Which policy change would most effectively address the issue?",
+"options":{
+"A":"Increase vehicle maintenance",
+"B":"Limit maximum driver shift length",
+"C":"Reduce delivery routes",
+"D":"Increase insurance coverage"
+},
+"correct_answer":"B",
+"explanation":"Limiting shift duration directly reduces fatigue-related accidents."
+},
+{
+"id":191,
+"question":"A software company wants to expand into enterprise markets. Enterprise customers require stronger compliance and data security capabilities. Leadership wants to ensure the product meets these expectations before launching a sales campaign. Which step should be prioritized?",
+"options":{
+"A":"Increase enterprise marketing spending",
+"C":"Develop security and compliance certifications",
+"B":"Reduce subscription prices",
+"D":"Expand customer support teams"
+},
+"correct_answer":"C",
+"explanation":"Security certifications are essential for enterprise adoption."
+},
+{
+"id":192,
+"question":"A manufacturer lowered product prices to compete with cheaper rivals. Sales increased but profit margins declined significantly. Leadership wants to remain competitive while restoring profitability. Which strategy would most directly address the problem?",
+"options":{
+"A":"Further reduce product prices",
+"B":"Improve production efficiency",
+"C":"Increase advertising campaigns",
+"D":"Reduce product quality standards"
+},
+"correct_answer":"B",
+"explanation":"Efficiency improvements lower costs without raising prices."
+},
+{
+"id":193,
+"question":"Warehouse workers spend significant time searching for items during order picking. Leadership wants to improve fulfillment speed and reduce search time. Which operational change would most effectively address the issue?",
+"options":{
+"A":"Hire additional warehouse workers",
+"B":"Optimize storage layout and labeling",
+"C":"Reduce total product variety",
+"D":"Increase employee work hours"
+},
+"correct_answer":"B",
+"explanation":"Organized storage layouts reduce search time during picking."
+},
+{
+"id":194,
+"question":"A company considers acquiring a smaller competitor. Leadership wants to determine whether the acquisition would create value beyond increasing market share. Which factor should be examined most carefully?",
+"options":{
+"A":"Operational synergies between companies",
+"B":"Employee headcount in the target firm",
+"C":"Office space used by the company",
+"D":"Competitor advertising budgets"
+},
+"correct_answer":"A",
+"explanation":"Synergies determine whether the acquisition creates additional value."
+},
+{
+"id":195,
+"question":"A retailer launched a large promotional discount campaign that increased store traffic but failed to improve profit. Leadership wants to understand why profitability declined. Which analysis would provide the most useful insight?",
+"options":{
+"A":"Impact of discounts on profit margins",
+"B":"Increase promotional discounts further",
+"C":"Reduce the number of stores involved",
+"D":"Shorten store opening hours"
+},
+"correct_answer":"A",
+"explanation":"Margin analysis reveals whether discounts eroded profitability."
+},
+{
+"id":196,
+"question":"A technology company’s support team receives many repetitive questions about basic features. Leadership wants to reduce workload while maintaining good customer service. Which initiative would most effectively address the issue?",
+"options":{
+"A":"Reduce the support team size",
+"B":"Create self-service help resources",
+"C":"Increase subscription prices",
+"D":"Limit customer support channels"
+},
+"correct_answer":"B",
+"explanation":"Self-service resources reduce repetitive support requests."
+},
+{
+"id":197,
+"question":"Managers believe unclear expectations contribute to inconsistent employee performance. Leadership wants employees to better understand responsibilities and goals. Which action would most effectively address the issue?",
+"options":{
+"A":"Increase employee wages",
+"C":"Define clear performance objectives",
+"B":"Reduce employee work hours",
+"D":"Hire additional supervisors"
+},
+"correct_answer":"C",
+"explanation":"Clear objectives improve accountability and focus."
+},
+{
+"id":198,
+"question":"A telecommunications provider observes many customers leave shortly after their contracts expire. Leadership wants to reduce churn without lowering prices. Which initiative would most effectively improve retention?",
+"options":{
+"A":"Introduce loyalty benefits for customers",
+"B":"Increase contract termination penalties",
+"C":"Reduce service quality for older plans",
+"D":"Limit service upgrade options"
+},
+"correct_answer":"A",
+"explanation":"Loyalty incentives encourage customers to remain with the provider."
+},
+{
+"id":199,
+"question":"A technology startup considers outsourcing part of its development to reduce costs. Leadership wants to evaluate the main risk associated with outsourcing before making a decision. Which factor should be examined most carefully?",
+"options":{
+"A":"Communication and coordination complexity",
+"B":"Office rent for external teams",
+"C":"Number of internal developers",
+"D":"Marketing budget allocation"
+},
+"correct_answer":"A",
+"explanation":"Coordination complexity strongly affects outsourcing success."
+},
+{
+"id":200,
+"question":"A company wants to analyze the competitive forces within its industry before launching a new product. Leadership wants a framework that examines supplier power, buyer power, competitive rivalry, threat of substitutes, and threat of new entrants. Which framework should be used?",
+"options":{
+"A":"Balanced scorecard framework",
+"B":"PESTLE environmental analysis",
+"C":"Porter five forces framework",
+"D":"Break-even financial analysis"
+},
+"correct_answer":"C",
+"explanation":"Porter’s Five Forces evaluates competitive dynamics within an industry."
+}
+
 
 ]
