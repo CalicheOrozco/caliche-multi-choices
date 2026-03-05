@@ -286,6 +286,10 @@ export default function Quiz({ questions, seed }: QuizProps) {
               showResultStyling && currentAnswer?.isCorrect === true;
             const isSelectedIncorrect =
               showResultStyling && currentAnswer?.isCorrect === false;
+            const isCorrectWhenUserIncorrect =
+              !!currentAnswer?.checked &&
+              currentAnswer?.isCorrect === false &&
+              key === currentQuestion.correct_answer;
 
             return (
               <label
@@ -298,6 +302,8 @@ export default function Quiz({ questions, seed }: QuizProps) {
                     ? "border-2 border-green-600 bg-green-50 dark:border-green-400 dark:bg-green-950/40"
                     : isSelectedIncorrect
                       ? "border-2 border-red-600 bg-red-50 dark:border-red-400 dark:bg-red-950/40"
+                      : isCorrectWhenUserIncorrect
+                        ? "border-2 border-green-600 bg-green-50 dark:border-green-400 dark:bg-green-950/40"
                       : "border border-black/8 hover:bg-black/3 dark:border-white/[.145] dark:hover:bg-white/6")
                 }
               >
