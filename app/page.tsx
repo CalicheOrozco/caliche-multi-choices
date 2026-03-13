@@ -31,13 +31,13 @@ export default async function Home() {
   const seed = randomBytes(4).readUInt32LE(0);
 
   return (
-    <div className="min-h-screen bg-zinc-50 text-foreground dark:bg-black">
-      <main className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-4 py-8 sm:px-6 sm:py-12">
+    <div className="min-h-screen bg-background text-foreground">
+      <main className="mx-auto flex w-full max-w-3xl flex-col gap-7 px-4 py-10 sm:px-6 sm:py-14">
         <header className="flex flex-col gap-2">
-          <h1 className="text-2xl font-semibold tracking-tight">
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             CIM - Multiple-choice questions
           </h1>
-          <p className="text-sm text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-prose text-sm leading-6 text-zinc-600 dark:text-zinc-400">
             Select an option and press “Check” to validate.
           </p>
         </header>
